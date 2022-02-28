@@ -11,5 +11,11 @@
     "**/.settings": true,
     "**/.factorypath": true,
     "**/node_modules": true
-  }
+  },
+  "cSpell.words": [
+    "akar",
+    "Unstyled",
+    "vtubers"
+  ],
+  "python.formatting.provider": "yapf"
 }
