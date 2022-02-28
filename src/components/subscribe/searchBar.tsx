@@ -21,7 +21,7 @@ const SubscribeSearchBar = defineVFC(() => {
 
   return (
     <Group sx={{ display: 'flex', padding: '0 0.5rem' }} spacing="sm">
-      <Tooltip label="Save">
+      <Tooltip label="Save" gutter={10}>
         <ActionIcon
           sx={{ flexGrow: 1 }}
           size="lg"
@@ -33,7 +33,7 @@ const SubscribeSearchBar = defineVFC(() => {
         </ActionIcon>
       </Tooltip>
 
-      <Tooltip label="Clear selected" >
+      <Tooltip label="Clear selected" gutter={10}>
         <ActionIcon
           sx={{ flexGrow: 1 }}
           size="lg"
