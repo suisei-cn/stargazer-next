@@ -1,18 +1,19 @@
-import { defineVFC } from '@core/helper'
-import { withResetVtbs, withSearchQuery, withUpdated } from '@core/subscribe'
+import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil'
+
 import { Icon } from '@iconify/react'
 import {
   ActionIcon,
-  Button,
   Group,
   TextInput,
   UnstyledButton,
   useMantineTheme
 } from '@mantine/core'
-import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil'
+
+import { defineVFC } from '@core/helper'
+import { withResetVtbs, withSearchQuery, withUpdated } from '@core/subscribe'
 
 const SubscribeSearchBar = defineVFC(() => {
-  const updated = useRecoilValue(withUpdated)
+  const disabled = !useRecoilValue(withUpdated)
   const reset = useSetRecoilState(withResetVtbs)
   const theme = useMantineTheme()
   const [searchQuery, setSearchQuery] = useRecoilState(withSearchQuery)
@@ -24,7 +25,7 @@ const SubscribeSearchBar = defineVFC(() => {
         size="lg"
         color="blue"
         variant="outline"
-        disabled={!updated}
+        disabled={disabled}
       >
         <Icon icon="cil:save" />
       </ActionIcon>
@@ -32,9 +33,9 @@ const SubscribeSearchBar = defineVFC(() => {
       <ActionIcon
         sx={{ flexGrow: 1 }}
         size="lg"
-        color="blue"
+        color="yellow"
         variant="outline"
-        disabled={!updated}
+        disabled={disabled}
         onClick={() => {
           reset()
         }}
