@@ -5,6 +5,7 @@ import {
   ActionIcon,
   Group,
   TextInput,
+  Tooltip,
   UnstyledButton,
   useMantineTheme
 } from '@mantine/core'
@@ -20,28 +21,32 @@ const SubscribeSearchBar = defineVFC(() => {
 
   return (
     <Group sx={{ display: 'flex', padding: '0 0.5rem' }} spacing="sm">
-      <ActionIcon
-        sx={{ flexGrow: 1 }}
-        size="lg"
-        color="blue"
-        variant="outline"
-        disabled={disabled}
-      >
-        <Icon icon="cil:save" />
-      </ActionIcon>
+      <Tooltip label="Save">
+        <ActionIcon
+          sx={{ flexGrow: 1 }}
+          size="lg"
+          color="blue"
+          variant="outline"
+          disabled={disabled}
+        >
+          <Icon icon="cil:save" />
+        </ActionIcon>
+      </Tooltip>
 
-      <ActionIcon
-        sx={{ flexGrow: 1 }}
-        size="lg"
-        color="yellow"
-        variant="outline"
-        disabled={disabled}
-        onClick={() => {
-          reset()
-        }}
-      >
-        <Icon icon="icon-park-outline:clear" />
-      </ActionIcon>
+      <Tooltip label="Clear selected" >
+        <ActionIcon
+          sx={{ flexGrow: 1 }}
+          size="lg"
+          color="yellow"
+          variant="outline"
+          disabled={disabled}
+          onClick={() => {
+            reset()
+          }}
+        >
+          <Icon icon="icon-park-outline:clear" />
+        </ActionIcon>
+      </Tooltip>
 
       <TextInput
         sx={{ flexGrow: 114514 }}
