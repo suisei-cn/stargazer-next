@@ -42,6 +42,7 @@ export interface State {
   sortByKey: SortKey
   sortOrder: SortOrder
   searchQuery: string
+  loading: boolean
   vtbs: VTB[]
   fuse: Fuse<VTB>
 }

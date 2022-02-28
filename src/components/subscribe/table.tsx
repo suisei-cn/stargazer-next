@@ -6,6 +6,7 @@ import {
   SortKey,
   SortOrder,
   withAllToggle,
+  withLoading,
   withSearchQuery,
   withSort,
   withSortedAndFilteredVTB,
@@ -18,7 +19,6 @@ import {
   Center,
   Checkbox,
   Container,
-  Group,
   Highlight,
   ScrollArea,
   Table,
@@ -27,6 +27,7 @@ import {
 } from '@mantine/core'
 import { Icon } from '@iconify/react'
 import { getName } from '@core/utils'
+import TableSkeleton from './tableSkeleton'
 
 const EmptyWarn = defineVFC(() => {
   const theme = useMantineTheme()
@@ -65,17 +66,19 @@ const SubscribeTable = defineVFC(() => {
   const [sort, setSort] = useRecoilState(withSort)
   const [allToggledState, setAllToggled] = useRecoilState(withAllToggle)
 
+  if (useRecoilValue(withLoading)) return <TableSkeleton />
+
   const updateSort = (key: SortKey) => {
     if (sort.key === key) {
-      setSort(state => {
-        if (state.order === SortOrder.Asc) {
+      setSort(sortState => {
+        if (sortState.order === SortOrder.Asc) {
           return {
             order: SortOrder.Desc,
             key: 'none'
           }
         } else {
           return {
-            ...state,
+            ...sortState,
             order: SortOrder.Asc
           }
         }
@@ -95,6 +98,7 @@ const SubscribeTable = defineVFC(() => {
       )
     )
   }
+
   const highlight = searchQuery.split('')
 
   const headCheckBox =

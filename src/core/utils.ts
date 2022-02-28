@@ -33,3 +33,6 @@ export const getName = (name: Name) => {
 
 export const sleep = (ms: number) =>
   new Promise(resolve => setTimeout(resolve, ms))
+
+export const randomInt = (min: number, max: number) =>
+  min + Math.floor(Math.random() * (max - min + 1))

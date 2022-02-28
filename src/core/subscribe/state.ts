@@ -1,5 +1,5 @@
 import Fuse from 'fuse.js'
-import { atom, selector } from 'recoil'
+import { atom, DefaultValue, selector } from 'recoil'
 
 import { AllToggleState, SortOrder, State } from '@core/subscribe'
 import { getName } from '@core/utils'
@@ -25,6 +25,7 @@ const loadDefaultState = async (): Promise<State> => {
 
   return {
     vtbs,
+    loading: false,
     lastUpdated: getUpdateRecord(vtbs),
     searchQuery: '',
     sortByKey: 'none',
@@ -48,6 +49,7 @@ const subscriptionState = atom<State>({
   key: 'subscriptionState',
   default: {
     vtbs: [],
+    loading: true,
     lastUpdated: {},
     searchQuery: '',
     sortByKey: 'none',
@@ -59,6 +61,15 @@ const subscriptionState = atom<State>({
       loadDefaultState().then(setSelf)
     }
   ]
+})
+
+export const withLoading = selector<boolean>({
+  key: 'withLoading',
+  get: ({ get }) => get(subscriptionState).loading,
+  set: ({ set }, loading) => {
+    loading instanceof DefaultValue ||
+      set(subscriptionState, state => ({ ...state, loading }))
+  }
 })
 
 export const withResetVtbs = selector({
