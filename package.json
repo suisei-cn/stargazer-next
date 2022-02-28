@@ -23,7 +23,6 @@
     "@types/react": "17.0.39",
     "eslint": "8.9.0",
     "eslint-config-next": "12.1.0",
-    "typescript": "4.5.5",
-    "windicss-webpack-plugin": "^1.6.6"
+    "typescript": "4.5.5"
   }
 }
