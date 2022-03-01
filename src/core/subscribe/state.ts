@@ -11,9 +11,10 @@ import { DataLoadState } from '@core/const'
 const getUpdateRecord = (vtbs: VTB[]) =>
   Object.fromEntries(vtbs.map(vtb => [vtb.uuid, vtb.subscribed]))
 
-const loadDefaultState = async (): Promise<State> => {
-  // TODO: use real API
+const loadState = async (): Promise<State> => {
   console.log('Loading data')
+
+  // TODO: use real API
   const data = await import('@data/vdb.new.json')
 
   const groups = Object.fromEntries(
@@ -22,12 +23,15 @@ const loadDefaultState = async (): Promise<State> => {
 
   const vtbs = data.vtbs.map(vtb => ({
     ...vtb,
+    subscribed: false,
     group: vtb.group ? groups[vtb.group] : ''
   }))
 
+  console.log('Data loaded')
+
   return {
     vtbs,
-    loading: false,
+    loadingState: DataLoadState.Loaded,
     lastUpdated: getUpdateRecord(vtbs),
     searchQuery: '',
     sortByKey: 'none',
@@ -49,25 +53,31 @@ const loadDefaultState = async (): Promise<State> => {
 
 const subscriptionState = atom<State>({
   key: 'subscriptionState',
-  default: {
-    vtbs: [],
-    loading: true,
-    lastUpdated: {},
-    searchQuery: '',
-    sortByKey: 'none',
-    sortOrder: SortOrder.Asc,
-    fuse: new Fuse([])
-  },
+  default: defaultState,
   effects: [
     ({ setSelf }) => {
-      loadDefaultState().then(setSelf)
+      loadState()
+        .then(setSelf)
+        .catch(e => {
+          console.error(e)
+          {
+            setSelf(state =>
+              state instanceof DefaultValue
+                ? defaultState
+                : {
+                    ...state,
+                    loadingState: DataLoadState.Error
+                  }
+            )
+          }
+        })
     }
   ]
 })
 
-export const withLoading = selector<boolean>({
+export const withLoading = selector<DataLoadState>({
   key: 'withLoading',
-  get: ({ get }) => get(subscriptionState).loading,
+  get: ({ get }) => get(subscriptionState).loadingState,
   set: ({ set }, loading) => {
     loading instanceof DefaultValue ||
       set(subscriptionState, state => ({ ...state, loading }))
@@ -165,7 +175,6 @@ export const withSortedAndFilteredVTB = selector<VTB[]>({
       const ids = Object.fromEntries(
         state.fuse.search(state.searchQuery).map(x => [x.item.uuid, x.score])
       )
-      console.log(ids)
       return state.vtbs
         .filter(x => x.uuid in ids)
         .sort((a, b) => (ids[a.uuid] ?? 1) - (ids[b.uuid] ?? 1))
