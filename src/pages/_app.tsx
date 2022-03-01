@@ -8,6 +8,7 @@ import { AppShell, MantineProvider } from '@mantine/core'
 import CustomHeader from '@comps/CustomHeader'
 import CustomNavbar from '@comps/CustomNavbar'
 import { defineVFC } from '@core/helper'
+import { NotificationsProvider } from '@mantine/notifications'
 
 const App = defineVFC<AppProps>(({ Component, pageProps }) => {
   const [opened, setOpened] = useState(false)
@@ -30,23 +31,29 @@ const App = defineVFC<AppProps>(({ Component, pageProps }) => {
             colorScheme: 'light'
           }}
         >
-          <AppShell
-            fixed
-            padding={0}
-            navbarOffsetBreakpoint="sm"
-            navbar={
-              <CustomNavbar
-                width={{ xs: 300 }}
-                opened={opened}
-                setOpened={setOpened}
-              />
-            }
-            header={
-              <CustomHeader height={70} opened={opened} setOpened={setOpened} />
-            }
-          >
-            <Component {...pageProps} />
-          </AppShell>
+          <NotificationsProvider>
+            <AppShell
+              fixed
+              padding={0}
+              navbarOffsetBreakpoint="sm"
+              navbar={
+                <CustomNavbar
+                  width={{ xs: 300 }}
+                  opened={opened}
+                  setOpened={setOpened}
+                />
+              }
+              header={
+                <CustomHeader
+                  height={70}
+                  opened={opened}
+                  setOpened={setOpened}
+                />
+              }
+            >
+              <Component {...pageProps} />
+            </AppShell>
+          </NotificationsProvider>
         </MantineProvider>
       </RecoilRoot>
     </>
