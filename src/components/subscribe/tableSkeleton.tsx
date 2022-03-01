@@ -1,11 +1,11 @@
 import { defineVFC } from '@core/helper'
-import { Box, Skeleton, Table } from '@mantine/core'
+import { Box, Skeleton } from '@mantine/core'
 
-const SkeletonCell = defineVFC<{ width?: string }>(({ width, className }) => (
+const SkeletonCell = defineVFC<{ grow: number }>(({ grow, className }) => (
   <Box
     component="td"
     sx={{
-      width,
+      flexGrow: grow,
       paddingLeft: '6px !important',
       paddingRight: '6px !important'
     }}
@@ -15,20 +15,23 @@ const SkeletonCell = defineVFC<{ width?: string }>(({ width, className }) => (
   </Box>
 ))
 
+const SkeletonRow = defineVFC<{ key: number }>(({ key }) => (
+  <Box component="tr" key={key} sx={{ display: 'flex' }}>
+    <SkeletonCell grow={1} />
+    <SkeletonCell grow={4} />
+    <SkeletonCell grow={13} />
+  </Box>
+))
+
 const TableSkeleton = defineVFC(() => {
-  const row = (
-    <Box component="tr">
-      <SkeletonCell width="2rem" />
-      <SkeletonCell width="5rem" />
-      <SkeletonCell width="15rem" />
-    </Box>
-  )
   return (
-    <Box my={12}>
-      <Table>
-        <tbody>{Array(10).fill(row)}</tbody>
-      </Table>
-    </Box>
+    <>
+      {Array(10)
+        .fill(null)
+        .map((_, key) => (
+          <SkeletonRow key={key} />
+        ))}
+    </>
   )
 })
 

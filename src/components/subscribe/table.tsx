@@ -13,51 +13,15 @@ import {
   withVTB
 } from '@core/subscribe'
 
-import {
-  Box,
-  Button,
-  Center,
-  Checkbox,
-  Container,
-  Highlight,
-  ScrollArea,
-  Table,
-  Text,
-  useMantineTheme
-} from '@mantine/core'
-import { Icon } from '@iconify/react'
-import { getName } from '@core/utils'
+import { Button, Checkbox, ScrollArea, Table, Text } from '@mantine/core'
 import TableSkeleton from './tableSkeleton'
-
-const EmptyWarn = defineVFC(() => {
-  const theme = useMantineTheme()
-  return (
-    <Box
-      component="tr"
-      sx={{
-        ':hover': {
-          backgroundColor: 'transparent !important'
-        }
-      }}
-    >
-      <td>
-        <Container sx={{ color: theme.colors.dark[3] }}>
-          <Center mt={60} mb={40}>
-            <Icon icon="ic:outline-sms-failed" width={60} />
-          </Center>
-          <Center mb={20}>
-            <Text>Oops! we cannot find your beloved one, but you can</Text>
-          </Center>
-          <Center>
-            <Button component="a" href="https://github.com/" variant="light">
-              Add new VTB
-            </Button>
-          </Center>
-        </Container>
-      </td>
-    </Box>
-  )
-})
+import React from 'react'
+import {
+  TableSearchEmptyWarn,
+  TableDataLoadError,
+  TableVtbRows
+} from './tableComponent'
+import { DataLoadState } from '@core/const'
 
 const SubscribeTable = defineVFC(() => {
   const setVtbs = useSetRecoilState(withVTB)
@@ -65,8 +29,7 @@ const SubscribeTable = defineVFC(() => {
   const sortedAndFilteredVtbs = useRecoilValue(withSortedAndFilteredVTB)
   const [sort, setSort] = useRecoilState(withSort)
   const [allToggledState, setAllToggled] = useRecoilState(withAllToggle)
-
-  if (useRecoilValue(withLoading)) return <TableSkeleton />
+  const loadState = useRecoilValue(withLoading)
 
   const updateSort = (key: SortKey) => {
     if (sort.key === key) {
@@ -149,7 +112,7 @@ const SubscribeTable = defineVFC(() => {
   )
 
   const head = (
-    <tr style={{ display: 'flex' }}>
+    <tr style={{ display: 'flex', width: '100%' }}>
       <th
         style={{
           display: 'flex',
@@ -191,54 +154,6 @@ const SubscribeTable = defineVFC(() => {
     </tr>
   )
 
-  const rows =
-    sortedAndFilteredVtbs.length === 0 ? (
-      <EmptyWarn />
-    ) : (
-      sortedAndFilteredVtbs.map(vtb => {
-        const { uuid, name, subscribed, group } = vtb
-        return (
-          <tr
-            key={uuid}
-            style={{ display: 'flex', cursor: 'pointer' }}
-            onClick={() => toggleSingle(uuid)}
-          >
-            <td style={{ flexGrow: 1, paddingTop: '0.6rem!important' }}>
-              <Checkbox checked={subscribed} onChange={() => {}} size="sm" />
-            </td>
-            <td
-              style={{
-                flexGrow: 1,
-                width: '12rem',
-                overflow: 'hidden',
-                textOverflow: 'ellipsis'
-              }}
-            >
-              <Highlight highlight={highlight} size="sm">
-                {getName(name)}
-              </Highlight>
-            </td>
-            <td
-              style={{
-                flexGrow: 1,
-                overflow: 'hidden',
-                textOverflow: 'ellipsis'
-              }}
-            >
-              <Highlight highlight={highlight} size="sm" color={'gray'}>
-                {group ?? ''}
-              </Highlight>
-            </td>
-            <td
-              style={{
-                flexGrow: 114514
-              }}
-            ></td>
-          </tr>
-        )
-      })
-    )
-
   return (
     <ScrollArea
       type="scroll"
@@ -247,9 +162,29 @@ const SubscribeTable = defineVFC(() => {
       scrollbarSize={2}
       mt={12}
     >
-      <Table horizontalSpacing="xs" highlightOnHover>
+      <Table
+        horizontalSpacing="xs"
+        highlightOnHover={
+          loadState === DataLoadState.Loaded &&
+          sortedAndFilteredVtbs.length !== 0
+        }
+      >
         <thead>{head}</thead>
-        <tbody>{rows}</tbody>
+        <tbody>
+          {loadState === DataLoadState.Loading ? (
+            <TableSkeleton />
+          ) : loadState === DataLoadState.Error ? (
+            <TableDataLoadError />
+          ) : sortedAndFilteredVtbs.length === 0 ? (
+            <TableSearchEmptyWarn />
+          ) : (
+            <TableVtbRows
+              highlight={highlight}
+              toggleSingle={toggleSingle}
+              vtbs={sortedAndFilteredVtbs}
+            />
+          )}
+        </tbody>
       </Table>
     </ScrollArea>
   )
