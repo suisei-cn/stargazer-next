@@ -145,11 +145,11 @@ export const useToggleSetting = () => {
           `Error updating ${key}, reset to previously synced value (${setting.syncedValue})`
         )
 
-        // showNotification({
-        //   message: e.message,
-        //   title: `Failed to update setting`,
-        //   color: 'red'
-        // })
+        showNotification({
+          message: e.message,
+          title: `Failed to update setting`,
+          color: 'red'
+        })
         set(withSettingByKey(key), {
           ...setting,
           value: setting.syncedValue

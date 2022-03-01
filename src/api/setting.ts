@@ -1,20 +1,22 @@
 import { settings } from '@core/setting'
 import { randomInt, sleep } from '@core/utils'
 
+// TODO: API
+
 export const updateSetting = async (key: string, enabled: boolean) => {
   await sleep(1000)
-  throw Error("Can't update setting")
 }
 
 export const getSetting = async () => {
-  await sleep(1000)
-
   return settings.map(g => ({
     ...g,
-    settings: g.settings.map(s => ({
-      ...s,
-      value: true,
-      syncedValue: true
-    }))
+    settings: g.settings.map(s => {
+      const value = randomInt(0, 1) === 1
+      return {
+        ...s,
+        value,
+        syncedValue: value
+      }
+    })
   }))
 }
