@@ -147,6 +147,7 @@ export const useToggleSetting = () => {
 
         showNotification({
           message: e.message,
+          autoClose: 3000,
           title: `Failed to update setting`,
           color: 'red'
         })
