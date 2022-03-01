@@ -7,19 +7,19 @@ export const settings: SettingGroup[] = [
       {
         key: 'bilibili::go_live',
         value: false,
-        text: 'Go live',
+        text: 'Live started',
         syncedValue: false
       },
       {
         key: 'bilibili::send_dynamic',
         value: false,
-        text: 'Send dynamic',
+        text: 'Dynamic sent',
         syncedValue: false
       },
       {
         key: 'bilibili::forward_dynamic',
         value: false,
-        text: 'Forward dynamic',
+        text: 'Dynamic forwarded',
         syncedValue: false
       }
     ]
@@ -30,13 +30,13 @@ export const settings: SettingGroup[] = [
       {
         key: 'youtube::go_live',
         value: false,
-        text: 'Go live',
+        text: 'Live started',
         syncedValue: false
       },
       {
         key: 'youtube::schedule_broadcast',
         value: false,
-        text: 'Scheduled a broadcast',
+        text: 'Broadcast scheduled',
         syncedValue: false
       },
       {
@@ -48,7 +48,7 @@ export const settings: SettingGroup[] = [
       {
         key: 'youtube::new_video',
         value: false,
-        text: 'New video',
+        text: 'Video uploaded',
         syncedValue: false
       }
     ]
@@ -59,13 +59,13 @@ export const settings: SettingGroup[] = [
       {
         key: 'twitter::tweet',
         value: false,
-        text: 'Tweet',
+        text: 'Tweeted',
         syncedValue: false
       },
       {
         key: 'twitter::retweet',
         value: false,
-        text: 'Retweet',
+        text: 'Retweeted',
         syncedValue: false
       }
     ]
