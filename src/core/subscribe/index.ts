@@ -1,3 +1,3 @@
-export * from './consts'
-export * from './types'
+export * from './const'
+export * from './type'
 export * from './state'

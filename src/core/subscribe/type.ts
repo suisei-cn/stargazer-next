@@ -1,5 +1,6 @@
-import { SortOrder } from './consts'
+import { SortOrder } from './const'
 import Fuse from 'fuse.js'
+import { DataLoadState } from '@core/const'
 
 export type SortKey = Exclude<keyof VTB, 'subscribed'> | 'none'
 
@@ -42,7 +43,7 @@ export interface State {
   sortByKey: SortKey
   sortOrder: SortOrder
   searchQuery: string
-  loading: boolean
+  loadingState: DataLoadState
   vtbs: VTB[]
   fuse: Fuse<VTB>
 }
