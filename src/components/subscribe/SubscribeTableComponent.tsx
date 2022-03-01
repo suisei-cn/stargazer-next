@@ -38,7 +38,7 @@ export const TableSearchEmptyWarn = defineVFC(
   { memo: true }
 )
 
-export const TableDataLoadError = defineVFC(
+export const TableDataLoadFailureWarn = defineVFC(
   () => (
     <Box component="tr">
       <td>

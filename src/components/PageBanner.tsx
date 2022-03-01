@@ -2,6 +2,7 @@ import { defineVFC } from '@core/helper'
 import {
   Box,
   Container,
+  MediaQuery,
   Space,
   Text,
   Title,
@@ -14,6 +15,18 @@ const PageBanner = defineVFC<{
   children?: React.ReactNode
 }>(({ children, className, title, description }) => {
   const theme = useMantineTheme()
+  const inner = (
+    <>
+      <Title order={1}>{title}</Title>
+      {description && <Text color={theme.colors.gray[6]}>{description}</Text>}
+      {children && (
+        <>
+          <Space h="lg" />
+          {children}
+        </>
+      )}
+    </>
+  )
   return (
     <Box
       className={className}
@@ -23,16 +36,16 @@ const PageBanner = defineVFC<{
         padding: '3rem'
       })}
     >
-      <Container size="lg">
-        <Title order={1}>{title}</Title>
-        {description && <Text color={theme.colors.gray[6]}>{description}</Text>}
-        {children && (
-          <>
-            <Space h="lg" />
-            {children}
-          </>
-        )}
-      </Container>
+      <MediaQuery styles={{ display: 'none' }} smallerThan={'sm'}>
+        <Container size="lg" padding="xl">
+          {inner}
+        </Container>
+      </MediaQuery>
+      <MediaQuery styles={{ display: 'none' }} largerThan={'sm'}>
+        <Container size="md" padding={0}>
+          {inner}
+        </Container>
+      </MediaQuery>
     </Box>
   )
 })

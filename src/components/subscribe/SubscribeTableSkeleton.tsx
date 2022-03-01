@@ -23,7 +23,7 @@ const SkeletonRow = defineVFC<{ key: number }>(({ key }) => (
   </Box>
 ))
 
-const TableSkeleton = defineVFC(() => {
+const SubscribeTableSkeleton = defineVFC(() => {
   return (
     <>
       {Array(10)
@@ -35,4 +35,4 @@ const TableSkeleton = defineVFC(() => {
   )
 })
 
-export default TableSkeleton
+export default SubscribeTableSkeleton

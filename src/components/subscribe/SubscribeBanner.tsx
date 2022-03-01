@@ -15,7 +15,7 @@ import { useRecoilValue } from 'recoil'
 import { withCount } from '@core/subscribe'
 import PageBanner from '@comps/PageBanner'
 
-const SettingBanner = defineVFC(() => {
+const SubscribeBanner = defineVFC(() => {
   const theme = useMantineTheme()
   const { all, selected, subscribed } = useRecoilValue(withCount)
 
@@ -45,4 +45,4 @@ const SettingBanner = defineVFC(() => {
   )
 })
 
-export default SettingBanner
+export default SubscribeBanner

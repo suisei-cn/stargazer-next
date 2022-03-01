@@ -1,5 +1,9 @@
+import React from 'react'
 import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil'
 
+import { Button, Checkbox, ScrollArea, Table, Text } from '@mantine/core'
+
+import { DataLoadState } from '@core/const'
 import { defineVFC } from '@core/helper'
 import {
   AllToggleState,
@@ -13,15 +17,12 @@ import {
   withVTB
 } from '@core/subscribe'
 
-import { Button, Checkbox, ScrollArea, Table, Text } from '@mantine/core'
-import TableSkeleton from './tableSkeleton'
-import React from 'react'
 import {
+  TableDataLoadFailureWarn,
   TableSearchEmptyWarn,
-  TableDataLoadError,
   TableVtbRows
-} from './tableComponent'
-import { DataLoadState } from '@core/const'
+} from './SubscribeTableComponent'
+import SubscribeTableSkeleton from './SubscribeTableSkeleton'
 
 const SubscribeTable = defineVFC(() => {
   const setVtbs = useSetRecoilState(withVTB)
@@ -172,9 +173,9 @@ const SubscribeTable = defineVFC(() => {
         <thead>{head}</thead>
         <tbody>
           {loadState === DataLoadState.Loading ? (
-            <TableSkeleton />
+            <SubscribeTableSkeleton />
           ) : loadState === DataLoadState.Error ? (
-            <TableDataLoadError />
+            <TableDataLoadFailureWarn />
           ) : sortedAndFilteredVtbs.length === 0 ? (
             <TableSearchEmptyWarn />
           ) : (
