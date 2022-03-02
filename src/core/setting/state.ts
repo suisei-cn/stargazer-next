@@ -14,7 +14,6 @@ import { DataLoadState } from '@core/const'
 import { settings } from './const'
 import { Setting, SettingGroup, State } from './type'
 import { useTranslation } from 'react-i18next'
-import { useDebouncedValue } from '@mantine/hooks'
 
 export const settingState = atom<State>({
   key: 'settingState',
