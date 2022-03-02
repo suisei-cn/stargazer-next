@@ -40,3 +40,9 @@ export const randomInt = (min: number, max: number) =>
   min + Math.floor(Math.random() * (max - min + 1))
 
 export const useDarkMode = () => useMantineColorScheme().colorScheme === 'dark'
+
+export const useWindow = (member?: keyof typeof window) => {
+  if (typeof window === 'undefined') return false
+  if (member) return member in window
+  return true
+}
