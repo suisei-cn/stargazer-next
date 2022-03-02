@@ -14,6 +14,7 @@ import { DataLoadState } from '@core/const'
 import { settings } from './const'
 import { Setting, SettingGroup, State } from './type'
 import { useTranslation } from 'react-i18next'
+import { useDebouncedValue } from '@mantine/hooks'
 
 export const settingState = atom<State>({
   key: 'settingState',
@@ -117,6 +118,8 @@ export const withSettingByKey = selectorFamily<Setting | undefined, string>({
     }
 })
 
+const reqBuffer: Record<string, NodeJS.Timeout> = {}
+
 export const useToggleSetting = () => {
   const { showNotification } = useNotifications()
   const { t } = useTranslation()
@@ -130,34 +133,47 @@ export const useToggleSetting = () => {
       return
     }
 
+    const inQueue = reqBuffer[key]
+
+    if (inQueue) {
+      clearTimeout(inQueue)
+      delete reqBuffer[key]
+    }
+
     const newSetting = { ...setting, value: !setting.value }
 
     set(withSettingByKey(key), newSetting)
 
-    await updateSetting(key, !setting.value)
-      .then(() => {
-        console.info(`${key} is synced with server (Now ${newSetting.value})`)
-        set(withSettingByKey(key), {
-          ...newSetting,
-          syncedValue: newSetting.value
-        })
-      })
-      .catch(e => {
-        console.error(
-          `Error updating ${key}, reset to previously synced value (${setting.syncedValue})`
-        )
+    reqBuffer[key] = setTimeout(
+      () =>
+        updateSetting(key, newSetting.value)
+          .then(() => {
+            console.info(
+              `${key} is synced with server (Now ${newSetting.value})`
+            )
+            set(withSettingByKey(key), {
+              ...newSetting,
+              syncedValue: newSetting.value
+            })
+          })
+          .catch(e => {
+            console.error(
+              `Error updating ${key}, reset to previously synced value (${setting.syncedValue})`
+            )
 
-        showNotification({
-          message: e.message,
-          autoClose: 3000,
-          title: t('setting.warn.failed_to_update_setting'),
-          color: 'red'
-        })
-        set(withSettingByKey(key), {
-          ...setting,
-          value: setting.syncedValue
-        })
-      })
-      .finally(() => release())
+            showNotification({
+              message: e.message,
+              autoClose: 3000,
+              title: t('setting.warn.failed_to_update_setting'),
+              color: 'red'
+            })
+            set(withSettingByKey(key), {
+              ...setting,
+              value: setting.syncedValue
+            })
+          })
+          .finally(() => release()),
+      2000
+    )
   })
 }

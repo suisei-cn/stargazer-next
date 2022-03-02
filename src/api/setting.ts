@@ -4,7 +4,7 @@ import { randomInt, sleep } from '@core/utils'
 // TODO: API
 
 export const updateSetting = async (key: string, enabled: boolean) => {
-  await sleep(1000)
+  await sleep(200)
   // throw new Error('Oops, something went wrong')
 }
 
