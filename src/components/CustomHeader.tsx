@@ -15,36 +15,7 @@ import {
 } from '@mantine/core'
 import Link from 'next/link'
 import { Dispatch, SetStateAction } from 'react'
-
-const LinkButton = defineVFC<{ icon: string; href: string; text?: string }>(
-  ({ href, text, icon, className }) => {
-    const iconNode = <Icon icon={icon} />
-    return (
-      <Link passHref href={href}>
-        {text ? (
-          <Button
-            variant="light"
-            rightIcon={iconNode}
-            component="a"
-            className={className}
-          >
-            {text}
-          </Button>
-        ) : (
-          <ActionIcon
-            component="a"
-            variant="light"
-            size="lg"
-            color="blue"
-            className={className}
-          >
-            {iconNode}
-          </ActionIcon>
-        )}
-      </Link>
-    )
-  }
-)
+import LinkButton from './LinkButton'
 
 const CustomHeader = defineVFC<
   {
