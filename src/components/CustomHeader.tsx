@@ -5,12 +5,13 @@ import {
   ActionIcon,
   Box,
   Burger,
-  Button,
   Header,
   HeaderProps,
   MediaQuery,
+  Menu,
   Space,
   Text,
+  useMantineColorScheme,
   useMantineTheme
 } from '@mantine/core'
 import { Dispatch, SetStateAction } from 'react'
@@ -23,7 +24,10 @@ const CustomHeader = defineVFC<
     setOpened: Dispatch<SetStateAction<boolean>>
   } & Omit<HeaderProps, 'children'>
 >(({ opened, setOpened, ...prop }) => {
-  const theme = useMantineTheme()
+  const { colorScheme, colors, breakpoints } = useMantineTheme()
+  const isDark = colorScheme === 'dark'
+  const { i18n } = useTranslation()
+  const { toggleColorScheme } = useMantineColorScheme()
 
   return (
     <Header {...prop} padding="md">
@@ -32,7 +36,7 @@ const CustomHeader = defineVFC<
           display: 'flex',
           alignItems: 'center',
           height: '100%',
-          [`@media screen and (min-width: ${theme.breakpoints.sm}px)`]: {
+          [`@media screen and (min-width: ${breakpoints.sm}px)`]: {
             paddingLeft: '2rem',
             paddingRight: '1rem'
           }
@@ -43,11 +47,13 @@ const CustomHeader = defineVFC<
             opened={opened}
             onClick={() => setOpened(o => !o)}
             size="sm"
-            color={theme.colors.gray[6]}
+            color={colors.gray[6]}
             mr="xl"
           />
         </MediaQuery>
-        <Text size="xl">Stargazer Reborn</Text>
+        <Text size="xl" color={isDark ? colors.gray[3] : undefined}>
+          Stargazer Reborn
+        </Text>
         <Space sx={{ flexGrow: 1 }} />
         <Menu
           control={

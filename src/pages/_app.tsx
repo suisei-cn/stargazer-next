@@ -4,7 +4,13 @@ import { useState } from 'react'
 import { I18nextProvider } from 'react-i18next'
 import { RecoilRoot } from 'recoil'
 
-import { AppShell, MantineProvider } from '@mantine/core'
+import {
+  AppShell,
+  ColorScheme,
+  ColorSchemeProvider,
+  MantineProvider
+} from '@mantine/core'
+import { NotificationsProvider } from '@mantine/notifications'
 
 import CustomHeader from '@comps/CustomHeader'
 import CustomNavbar from '@comps/CustomNavbar'
@@ -13,6 +19,9 @@ import i18n from 'i18n'
 
 const App = defineVFC<AppProps>(({ Component, pageProps }) => {
   const [opened, setOpened] = useState(false)
+  const [colorScheme, setColorScheme] = useState<ColorScheme>('light')
+  const toggleColorScheme = (value?: ColorScheme) =>
+    setColorScheme(value || colorScheme === 'dark' ? 'light' : 'dark')
 
   return (
     <>
@@ -26,37 +35,44 @@ const App = defineVFC<AppProps>(({ Component, pageProps }) => {
 
       <RecoilRoot>
         <I18nextProvider i18n={i18n}>
-        <MantineProvider
-          withGlobalStyles
-          withNormalizeCSS
-          theme={{
-            colorScheme: 'light'
-          }}
-        >
-          <NotificationsProvider>
-            <AppShell
-              fixed
-              padding={0}
-              navbarOffsetBreakpoint="sm"
-              navbar={
-                <CustomNavbar
-                  width={{ xs: 300 }}
-                  opened={opened}
-                  setOpened={setOpened}
-                />
-              }
-              header={
-                <CustomHeader
-                  height={70}
-                  opened={opened}
-                  setOpened={setOpened}
-                />
-              }
+          <MantineProvider
+            withGlobalStyles
+            withNormalizeCSS
+            theme={{ colorScheme }}
+          >
+            <ColorSchemeProvider
+              colorScheme={colorScheme}
+              toggleColorScheme={toggleColorScheme}
             >
-              <Component {...pageProps} />
-            </AppShell>
-          </NotificationsProvider>
-        </MantineProvider>
+              <NotificationsProvider>
+                <AppShell
+                  fixed
+                  padding={0}
+                  navbarOffsetBreakpoint="sm"
+                  sx={({ colors }) => ({
+                    background:
+                      colorScheme === 'dark' ? colors.dark[8] : undefined
+                  })}
+                  navbar={
+                    <CustomNavbar
+                      width={{ xs: 300 }}
+                      opened={opened}
+                      setOpened={setOpened}
+                    />
+                  }
+                  header={
+                    <CustomHeader
+                      height={70}
+                      opened={opened}
+                      setOpened={setOpened}
+                    />
+                  }
+                >
+                  <Component {...pageProps} />
+                </AppShell>
+              </NotificationsProvider>
+            </ColorSchemeProvider>
+          </MantineProvider>
         </I18nextProvider>
       </RecoilRoot>
     </>

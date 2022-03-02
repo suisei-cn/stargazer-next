@@ -1,4 +1,5 @@
 import { defineVFC } from '@core/helper'
+import { useDarkMode } from '@core/utils'
 import {
   Box,
   Container,
@@ -15,10 +16,16 @@ const PageBanner = defineVFC<{
   children?: React.ReactNode
 }>(({ children, className, title, description }) => {
   const theme = useMantineTheme()
+  const isDark = useDarkMode()
+
   const inner = (
     <>
       <Title order={1}>{title}</Title>
-      {description && <Text color={theme.colors.gray[6]}>{description}</Text>}
+      {description && (
+        <Text color={isDark ? theme.colors.gray[4] : theme.colors.gray[6]}>
+          {description}
+        </Text>
+      )}
       {children && (
         <>
           <Space h="lg" />
@@ -30,9 +37,9 @@ const PageBanner = defineVFC<{
   return (
     <Box
       className={className}
-      sx={theme => ({
-        background: theme.colors.gray[0],
-        borderBottom: `1px solid ${theme.colors.gray[2]}`,
+      sx={({ colors }) => ({
+        background: isDark ? colors.dark[7] : colors.gray[0],
+        borderBottom: `1px solid ${isDark ? colors.dark[5] : colors.gray[2]}`,
         padding: '3rem'
       })}
     >

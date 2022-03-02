@@ -1,73 +1,8 @@
-import { defineVFC, defineVFCWithChild } from '@core/helper'
-import {
-  Button,
-  Navbar,
-  useMantineTheme,
-  ThemeIcon,
-  MantineColor,
-  CSSObject,
-  NavbarProps
-} from '@mantine/core'
-import { Icon } from '@iconify/react'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { defineVFC } from '@core/helper'
+import { Navbar, useMantineTheme, NavbarProps } from '@mantine/core'
 import { Dispatch, SetStateAction } from 'react'
-
-const MainLink = defineVFCWithChild<{
-  href: string
-  icon: string
-  iconColor?: MantineColor
-  onClick?: () => void
-}>(({ icon, iconColor, children, href, className, onClick }) => {
-  const iconColorDetermined = iconColor ?? 'blue'
-  const router = useRouter()
-  const theme = useMantineTheme()
-  const active = router.pathname === href
-  const activeBorder: CSSObject = {
-    '::before': {
-      content: '" "',
-      position: 'absolute',
-      top: 2,
-      left: 2,
-      bottom: 2,
-      width: 3,
-      borderRadius: 1.5,
-      backgroundColor: theme.colors[iconColorDetermined][3]
-    }
-  }
-  return (
-    <Navbar.Section className={className} onClick={onClick}>
-      <Link passHref href={href}>
-        <Button
-          radius={0}
-          size="xl"
-          variant={active ? 'light' : 'subtle'}
-          fullWidth
-          component="a"
-          color={'gray'}
-          sx={{
-            ...(active ? activeBorder : {}),
-            display: 'flex',
-            padding: '0 1.5rem',
-            color: theme.colors.gray[7],
-            fontWeight: '600',
-            fontSize: '0.9rem'
-          }}
-        >
-          <ThemeIcon
-            variant="light"
-            size="lg"
-            mr={'1rem'}
-            color={iconColorDetermined}
-          >
-            <Icon icon={icon} width={18} />
-          </ThemeIcon>
-          <div>{children}</div>
-        </Button>
-      </Link>
-    </Navbar.Section>
-  )
-})
+import { useTranslation } from 'react-i18next'
+import MainLink from './MainLink'
 
 const CustomNavbar = defineVFC<
   {
@@ -75,7 +10,9 @@ const CustomNavbar = defineVFC<
     setOpened: Dispatch<SetStateAction<boolean>>
   } & Omit<NavbarProps, 'children'>
 >(({ opened, setOpened, className, ...prop }) => {
-  const theme = useMantineTheme()
+  const { colorScheme, colors } = useMantineTheme()
+  const isDark = colorScheme === 'dark'
+
   const closeNavBar = () => setOpened(false)
   const { t } = useTranslation()
 
@@ -117,7 +54,7 @@ const CustomNavbar = defineVFC<
       <Navbar.Section
         mt={'auto'}
         sx={{
-          borderTop: `1px solid ${theme.colors.gray[3]}`,
+          borderTop: `1px solid ${isDark ? colors.dark[6] : colors.gray[3]}`,
           padding: 4
         }}
       >

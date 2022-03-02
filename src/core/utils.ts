@@ -1,4 +1,6 @@
+import { useMantineColorScheme } from '@mantine/core'
 import { Name } from './subscribe'
+import i18n from 'i18n'
 
 export const regexIndexOf = (
   string: string,
@@ -36,3 +38,5 @@ export const sleep = (ms: number) =>
 
 export const randomInt = (min: number, max: number) =>
   min + Math.floor(Math.random() * (max - min + 1))
+
+export const useDarkMode = () => useMantineColorScheme().colorScheme === 'dark'

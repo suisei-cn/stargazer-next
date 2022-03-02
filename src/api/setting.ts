@@ -5,6 +5,7 @@ import { randomInt, sleep } from '@core/utils'
 
 export const updateSetting = async (key: string, enabled: boolean) => {
   await sleep(1000)
+  // throw new Error('Oops, something went wrong')
 }
 
 export const getSetting = async () => {
