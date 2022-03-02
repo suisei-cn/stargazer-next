@@ -14,54 +14,63 @@ import {
 import { defineVFC } from '@core/helper'
 import { VTB } from '@core/subscribe'
 import { getName } from '@core/utils'
+import { useTranslation } from 'react-i18next'
 
 export const TableSearchEmptyWarn = defineVFC(
-  () => (
-    <Box component="tr">
-      <td>
-        <Container sx={theme => ({ color: theme.colors.dark[3] })}>
-          <Center mt={60} mb={40}>
-            <Icon icon="ic:outline-sms-failed" width={60} />
-          </Center>
-          <Center mb={20}>
-            <Text>Oops! We cannot find your beloved one, but you can</Text>
-          </Center>
-          <Center>
-            <Button component="a" href="https://github.com/" variant="light">
-              Add new VTB
-            </Button>
-          </Center>
-        </Container>
-      </td>
-    </Box>
-  ),
+  () => {
+    const { t } = useTranslation()
+    return (
+      <Box component="tr">
+        <td>
+          <Container sx={theme => ({ color: theme.colors.dark[3] })}>
+            <Center mt={60} mb={40}>
+              <Icon icon="ic:outline-sms-failed" width={60} />
+            </Center>
+            <Center mb={20}>
+              <Text>{t('subscription.table.warn.unable_to_find.text')}</Text>
+            </Center>
+            <Center>
+              <Button component="a" href="https://github.com/" variant="light">
+                {t('subscription.table.warn.unable_to_find.button')}
+              </Button>
+            </Center>
+          </Container>
+        </td>
+      </Box>
+    )
+  },
   { memo: true }
 )
 
 export const TableDataLoadFailureWarn = defineVFC(
-  () => (
-    <Box component="tr">
-      <td>
-        <Container sx={theme => ({ color: theme.colors.dark[3] })}>
-          <Center mt={60} mb={40}>
-            <Icon icon="carbon:data-error" width={60} />
-          </Center>
-          <Center mb={20}>
-            <Text>Oops! There&apos;s some problem loading the data</Text>
-          </Center>
-          <Center>
-            <Button
-              component="a"
-              href="https://github.com/suisei-cn/stargazer-next/issues/new"
-              variant="light"
-            >
-              Report the issue
-            </Button>
-          </Center>
-        </Container>
-      </td>
-    </Box>
-  ),
+  () => {
+    const { t } = useTranslation()
+    return (
+      <Box component="tr">
+        <td>
+          <Container sx={theme => ({ color: theme.colors.dark[3] })}>
+            <Center mt={60} mb={40}>
+              <Icon icon="carbon:data-error" width={60} />
+            </Center>
+            <Center mb={20}>
+              <Text>
+                {t('subscription.table.warn.failed_to_load_data.text')}
+              </Text>
+            </Center>
+            <Center>
+              <Button
+                component="a"
+                href="https://github.com/suisei-cn/stargazer-next/issues/new"
+                variant="light"
+              >
+                {t('general.report_issue')}
+              </Button>
+            </Center>
+          </Container>
+        </td>
+      </Box>
+    )
+  },
   { memo: true }
 )
 

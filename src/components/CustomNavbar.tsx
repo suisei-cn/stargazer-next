@@ -77,6 +77,7 @@ const CustomNavbar = defineVFC<
 >(({ opened, setOpened, className, ...prop }) => {
   const theme = useMantineTheme()
   const closeNavBar = () => setOpened(false)
+  const { t } = useTranslation()
 
   return (
     <Navbar
@@ -85,7 +86,9 @@ const CustomNavbar = defineVFC<
       hidden={!opened}
       className={className}
       height="calc(100vh - 70px)"
-      style={{ minHeight: 'calc(100vh - 70px)' }}
+      style={{
+        minHeight: 'calc(100vh - 70px)'
+      }}
     >
       <MainLink
         icon="bx:home"
@@ -93,7 +96,7 @@ const CustomNavbar = defineVFC<
         href="/"
         onClick={closeNavBar}
       >
-        Home
+        {t('general.home')}
       </MainLink>
       <MainLink
         icon="akar-icons:circle-check"
@@ -101,7 +104,7 @@ const CustomNavbar = defineVFC<
         href="/subscription"
         onClick={closeNavBar}
       >
-        Subscriptions
+        {t('general.subscription')}
       </MainLink>
       <MainLink
         icon="ant-design:setting-outlined"
@@ -109,7 +112,7 @@ const CustomNavbar = defineVFC<
         href="/settings"
         onClick={closeNavBar}
       >
-        Settings
+        {t('general.setting')}
       </MainLink>
       <Navbar.Section
         mt={'auto'}

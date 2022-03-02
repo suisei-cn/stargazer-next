@@ -18,6 +18,7 @@ import { useToggleSetting, withLoadingState, withSettings } from '@core/setting'
 import type { NextPage } from 'next'
 import { DataLoadState } from '@core/const'
 import { Icon } from '@iconify/react'
+import { useTranslation } from 'react-i18next'
 
 const loadError = (
   <Container sx={theme => ({ color: theme.colors.dark[3] })}>
@@ -43,10 +44,14 @@ const Home: NextPage = () => {
   const groups = useRecoilValue(withSettings)
   const state = useRecoilValue(withLoadingState)
   const toggleSetting = useToggleSetting()
+  const { t } = useTranslation()
 
   return (
     <>
-      <PageBanner title="Settings" description="Notifications and more" />
+      <PageBanner
+        title={t('setting.banner.title')}
+        description={t('setting.banner.description')}
+      />
       <Container
         size="lg"
         sx={{
@@ -71,7 +76,7 @@ const Home: NextPage = () => {
             borderBottomColor: theme.colors.gray[4]
           })}
         >
-          Notifications
+          {t('setting.options.notification.title')}
         </Title>
         <Box
           mx={12}
@@ -104,7 +109,7 @@ const Home: NextPage = () => {
                     onChange={() => toggleSetting(setting.key)}
                   />
                   <Text size="sm" color="gray">
-                    {setting.text}
+                    {t(`setting.options.notification.${setting.key}` as any)}
                   </Text>
                 </Group>
               ))}

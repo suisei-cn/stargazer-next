@@ -23,6 +23,7 @@ import {
   TableVtbRows
 } from './SubscribeTableComponent'
 import SubscribeTableSkeleton from './SubscribeTableSkeleton'
+import { useTranslation } from 'react-i18next'
 
 const SubscribeTable = defineVFC(() => {
   const setVtbs = useSetRecoilState(withVTB)
@@ -31,6 +32,7 @@ const SubscribeTable = defineVFC(() => {
   const [sort, setSort] = useRecoilState(withSort)
   const [allToggledState, setAllToggled] = useRecoilState(withAllToggle)
   const loadState = useRecoilValue(withLoading)
+  const { t } = useTranslation()
 
   const updateSort = (key: SortKey) => {
     if (sort.key === key) {
@@ -133,7 +135,10 @@ const SubscribeTable = defineVFC(() => {
           paddingLeft: '0 !important'
         }}
       >
-        <SortKeyButton sortKey={'name'} display="Name" />
+        <SortKeyButton
+          sortKey={'name'}
+          display={t('subscription.table.head.name')}
+        />
       </th>
       <th
         style={{
@@ -142,7 +147,10 @@ const SubscribeTable = defineVFC(() => {
           paddingLeft: '0 !important'
         }}
       >
-        <SortKeyButton sortKey={'group'} display="Group" />
+        <SortKeyButton
+          sortKey={'group'}
+          display={t('subscription.table.head.group')}
+        />
       </th>
       <th
         style={{

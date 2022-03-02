@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import { useState } from 'react'
+import { I18nextProvider } from 'react-i18next'
 import { RecoilRoot } from 'recoil'
 
 import { AppShell, MantineProvider } from '@mantine/core'
@@ -8,7 +9,7 @@ import { AppShell, MantineProvider } from '@mantine/core'
 import CustomHeader from '@comps/CustomHeader'
 import CustomNavbar from '@comps/CustomNavbar'
 import { defineVFC } from '@core/helper'
-import { NotificationsProvider } from '@mantine/notifications'
+import i18n from 'i18n'
 
 const App = defineVFC<AppProps>(({ Component, pageProps }) => {
   const [opened, setOpened] = useState(false)
@@ -24,6 +25,7 @@ const App = defineVFC<AppProps>(({ Component, pageProps }) => {
       </Head>
 
       <RecoilRoot>
+        <I18nextProvider i18n={i18n}>
         <MantineProvider
           withGlobalStyles
           withNormalizeCSS
@@ -55,6 +57,7 @@ const App = defineVFC<AppProps>(({ Component, pageProps }) => {
             </AppShell>
           </NotificationsProvider>
         </MantineProvider>
+        </I18nextProvider>
       </RecoilRoot>
     </>
   )

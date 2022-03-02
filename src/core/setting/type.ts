@@ -6,7 +6,6 @@ export interface Setting {
   value: boolean
   // Value being set when server returns
   syncedValue: boolean
-  text: string
 }
 
 export interface SettingGroup {

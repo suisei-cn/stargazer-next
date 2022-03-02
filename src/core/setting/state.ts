@@ -13,6 +13,7 @@ import { DataLoadState } from '@core/const'
 
 import { settings } from './const'
 import { Setting, SettingGroup, State } from './type'
+import { useTranslation } from 'react-i18next'
 
 export const settingState = atom<State>({
   key: 'settingState',
@@ -118,6 +119,7 @@ export const withSettingByKey = selectorFamily<Setting | undefined, string>({
 
 export const useToggleSetting = () => {
   const { showNotification } = useNotifications()
+  const { t } = useTranslation()
 
   return useRecoilCallback(({ snapshot, set }) => async (key: string) => {
     const release = snapshot.retain()
@@ -148,7 +150,7 @@ export const useToggleSetting = () => {
         showNotification({
           message: e.message,
           autoClose: 3000,
-          title: `Failed to update setting`,
+          title: t('setting.warn.failed_to_update_setting'),
           color: 'red'
         })
         set(withSettingByKey(key), {

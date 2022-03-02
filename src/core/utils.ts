@@ -26,7 +26,7 @@ export const allIndexOf = (string: string, regex: RegExp) => {
 
 // TODO: i18n
 export const getName = (name: Name) => {
-  let ret = name.lang[name.default]
+  const ret = name.lang[i18n.language] ?? name.lang[name.default]
   if (!ret) throw Error(`Bad name: ${JSON.stringify(name)}`)
   return ret
 }
