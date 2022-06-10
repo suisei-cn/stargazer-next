@@ -2,6 +2,7 @@ const en = {
   translation: {
     'general.home': 'Home',
     'general.setting': 'Settings',
+    'general.admin': 'Admin',
     'general.subscription': 'Subscriptions',
     'general.report_issue': 'Report an issue',
     'home.banner.description': 'Hi, {{user}}!',

@@ -35,22 +35,17 @@ const CustomNavbar = defineVFC<
           hidden={!opened}
           className={className}
           height="calc(100vh - 70px)"
-          style={{
+          sx={{
             minHeight: 'calc(100vh - 70px)',
+            padding: 12,
             ...style
           }}
         >
-          <MainLink
-            icon="bx:home"
-            iconColor={'blue'}
-            href="/"
-            onClick={closeNavBar}
-          >
+          <MainLink icon="bx:home" href="/" onClick={closeNavBar}>
             {t('general.home')}
           </MainLink>
           <MainLink
             icon="akar-icons:circle-check"
-            iconColor={'lime'}
             href="/subscription"
             onClick={closeNavBar}
           >
@@ -58,11 +53,17 @@ const CustomNavbar = defineVFC<
           </MainLink>
           <MainLink
             icon="ant-design:setting-outlined"
-            iconColor={'violet'}
             href="/settings"
             onClick={closeNavBar}
           >
             {t('general.setting')}
+          </MainLink>
+          <MainLink
+            icon="ant-design:setting-outlined"
+            href="/admin"
+            onClick={closeNavBar}
+          >
+            {t('general.admin')}
           </MainLink>
           <Navbar.Section
             mt={'auto'}

@@ -5,6 +5,7 @@ const zh = defineLang({
     'general.home': '首页',
     'general.subscription': '订阅',
     'general.setting': '设置',
+    'general.admin': '管理',
     'general.report_issue': '报告问题',
     'home.banner.description': '欢迎回来， {{user}}！',
     'subscription.banner.description': '管理已订阅的 VTB',

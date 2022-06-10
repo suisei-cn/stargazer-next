@@ -2,68 +2,65 @@ import { defineVFCWithChild } from '@core/helper'
 import { useDarkMode } from '@core/utils'
 import { Icon } from '@iconify/react'
 import {
+  ActionIcon,
+  Box,
   Button,
   CSSObject,
   MantineColor,
+  MantineTheme,
   Navbar,
   ThemeIcon,
+  UnstyledButton,
   useMantineTheme
 } from '@mantine/core'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+const useButtonColor = (active: boolean) => {
+  const theme = useMantineTheme()
+
+  let dark = theme.colorScheme === 'dark'
+  let colors = theme.colors
+  return dark
+    ? active
+      ? [colors.gray[1], colors.gray[8]]
+      : [colors.gray[5], '']
+    : active
+    ? [colors.gray[9], colors.gray[2]]
+    : [colors.gray[6], '']
+}
+
 const MainLink = defineVFCWithChild<{
   href: string
   icon: string
-  iconColor?: MantineColor
   onClick?: () => void
-}>(({ icon, iconColor, children, href, className, onClick }) => {
-  const iconColorDetermined = iconColor ?? 'blue'
-  const router = useRouter()
-  const theme = useMantineTheme()
-  const isDark = theme.colorScheme === 'dark'
-  const active = router.pathname === href
-  const activeBorder: CSSObject = {
-    '::before': {
-      content: '" "',
-      position: 'absolute',
-      top: 2,
-      left: 2,
-      bottom: 2,
-      width: 3,
-      borderRadius: 1.5,
-      backgroundColor: theme.colors[iconColorDetermined][3]
-    }
-  }
+}>(({ icon, children, href, className, onClick }) => {
+  const [color, bg] = useButtonColor(useRouter().pathname === href)
+
   return (
     <Navbar.Section className={className} onClick={onClick}>
       <Link passHref href={href}>
-        <Button
-          radius={0}
-          size="xl"
-          variant={active ? 'light' : 'subtle'}
-          fullWidth
-          component="a"
+        <UnstyledButton
           color={'gray'}
+          my={4}
           sx={{
-            ...(active ? activeBorder : {}),
+            color,
+            background: bg,
+            borderRadius: 9,
+            // ...(active ? activeBorder : {}),
             display: 'flex',
-            padding: '0 1.5rem',
-            color: isDark ? theme.colors.gray[3] : theme.colors.gray[7],
-            fontWeight: '600',
+            padding: '0.4rem 0.7rem',
+            width: '100%',
             fontSize: '0.9rem'
           }}
         >
-          <ThemeIcon
-            variant="light"
-            size="lg"
-            mr={'1rem'}
-            color={iconColorDetermined}
-          >
-            <Icon icon={icon} width={18} />
-          </ThemeIcon>
-          <div>{children}</div>
-        </Button>
+          <Icon
+            icon={icon}
+            width={18}
+            style={{ color, margin: '0.4rem 1rem 0.4rem 0.4rem' }}
+          />
+          <Box my={'auto'}>{children}</Box>
+        </UnstyledButton>
       </Link>
     </Navbar.Section>
   )

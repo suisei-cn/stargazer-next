@@ -132,16 +132,16 @@ export const useToggleSetting = () => {
       return
     }
 
-    const inQueue = reqBuffer[key]
-
-    if (inQueue) {
-      clearTimeout(inQueue)
-      delete reqBuffer[key]
-    }
-
     const newSetting = { ...setting, value: !setting.value }
 
     set(withSettingByKey(key), newSetting)
+
+    const waiting = reqBuffer[key]
+
+    if (waiting) {
+      clearTimeout(waiting)
+      delete reqBuffer[key]
+    }
 
     reqBuffer[key] = setTimeout(
       () =>

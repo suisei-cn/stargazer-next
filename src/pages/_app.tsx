@@ -28,6 +28,7 @@ const App = defineVFC<AppProps>(({ Component, pageProps }) => {
   return (
     <>
       <Head>
+        <link rel="stylesheet" href="https://use.typekit.net/skn4yoi.css" />
         <title>Page title</title>
         <meta
           name="viewport"
@@ -40,7 +41,11 @@ const App = defineVFC<AppProps>(({ Component, pageProps }) => {
           <MantineProvider
             withGlobalStyles
             withNormalizeCSS
-            theme={{ colorScheme }}
+            theme={{
+              colorScheme,
+              fontFamily: 'poppins',
+              headings: { fontFamily: 'poppins' }
+            }}
           >
             <ColorSchemeProvider
               colorScheme={colorScheme}

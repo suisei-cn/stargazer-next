@@ -1,1 +1,3560 @@
-{"vtbs": [{"uuid": "32799bd2-d46b-558a-8269-619848727016", "name": {"lang": {"zh": "帕比Channel"}, "default": "zh"}, "subscribed": false}, {"uuid": "923ede81-d267-5bba-894e-ce9c9b3b14dc", "name": {"lang": {"zh": "龙野铃铃Rinrin"}, "default": "zh"}, "subscribed": true}, {"uuid": "5b512c61-7839-594d-8a12-6f45cc372de0", "name": {"lang": {"zh": "freebeats"}, "default": "zh"}, "subscribed": false, "group": "e67fb222-1c4e-5f19-84da-9e8beba2c365"}, {"uuid": "4c2906cc-1718-5648-a1cb-f91d63ca424e", "name": {"lang": {"zh": "sekyota_落"}, "default": "zh"}, "subscribed": true}, {"uuid": "859ec54b-eb06-5095-8e42-4c9a0aa69800", "name": {"lang": {"zh": "甘乃尸音Amanosion"}, "default": "zh"}, "subscribed": true}, {"uuid": "af0eca37-1e9f-578f-bcd6-dc775299a62b", "name": {"lang": {"zh": "有加"}, "default": "zh"}, "subscribed": false, "group": "6a8d2bed-dc2e-5ce1-a3bd-e31317aa4e23"}, {"uuid": "848c3acd-6604-5700-863d-e2dd0844b785", "name": {"lang": {"zh": "北瀬琉织"}, "default": "zh"}, "subscribed": false, "group": "8b323527-39eb-519a-b7d5-f27a54ea118b"}, {"uuid": "28083fe1-ebcc-512e-b20a-7bbbc691ed90", "name": {"lang": {"zh": "喵鲤Meowli"}, "default": "zh"}, "subscribed": true}, {"uuid": "ec28febd-6eaf-549b-95a2-449acdba9b10", "name": {"lang": {"zh": "魔仙女团-小蓝-official"}, "default": "zh"}, "subscribed": true}, {"uuid": "c82126c9-cb1e-5cf2-9093-7e4527bb909a", "name": {"lang": {"jp": "天羽よつは", "zh": "天羽四叶"}, "default": "jp"}, "subscribed": false, "group": "f91c8cd6-c548-5ff2-a7de-e7d47d92c851"}, {"uuid": "dfbfe7de-00b7-58a4-a3c7-1e830292b6f2", "name": {"lang": {"zh": "安黛莉-米拉Official"}, "default": "zh"}, "subscribed": false, "group": "73102f48-57f2-5d59-94ef-7aac41e97f65"}, {"uuid": "4d0a3315-5c4f-56a9-baa2-6e175fd6eaff", "name": {"lang": {"zh": "啥也不会的几秋"}, "default": "zh"}, "subscribed": true}, {"uuid": "8fe9c26c-14dc-58f9-8b0b-956e914af68b", "name": {"lang": {"zh": "御御子_Official"}, "default": "zh"}, "subscribed": false}, {"uuid": "000b4a4f-32ee-555b-92a8-1cb9183073d0", "name": {"lang": {"zh": "せいりゅう-孟章"}, "default": "zh"}, "subscribed": false, "group": "da74be58-904f-586f-99f3-49f26c496892"}, {"uuid": "256944e7-d158-5b1a-8a33-462a0f1611d7", "name": {"lang": {"zh": "魔希みちる"}, "default": "zh"}, "subscribed": false}, {"uuid": "9a5f53e0-1d1a-52ef-9776-9e57f92cd8a0", "name": {"lang": {"jp": "のらきゃっと"}, "default": "jp"}, "subscribed": false, "group": "62b750ab-e71a-59cc-b6fe-71a2debb5598"}, {"uuid": "cb918f8b-f43f-55ee-ad0f-eee444e635a9", "name": {"lang": {"zh": "霧切澪official"}, "default": "zh"}, "subscribed": true}, {"uuid": "daa48a2e-57b4-5db4-b440-15604bdd7e68", "name": {"lang": {"zh": "尘阿萧"}, "default": "zh"}, "subscribed": false, "group": "8b323527-39eb-519a-b7d5-f27a54ea118b"}, {"uuid": "17f259b3-20d9-50c7-a128-ce03259ff24e", "name": {"lang": {"zh": "一竿风月"}, "default": "zh"}, "subscribed": false, "group": "b397df70-8418-5dc0-94c4-e8973f1316c8"}, {"uuid": "e6ebfeef-4349-5d5a-81f5-badb524ade90", "name": {"lang": {"zh": "千鸟战队_文静"}, "default": "zh"}, "subscribed": false, "group": "0fd2499a-5caa-51d0-8946-7d61d5aba18b"}, {"uuid": "b41524d6-4019-5079-9ca6-4def0450f551", "name": {"lang": {"zh": "四季侦探团"}, "default": "zh"}, "subscribed": true, "group": "6506d485-2cbc-552f-9337-6d4fc2d9b7fd"}, {"uuid": "17e4d699-8e6a-572d-abf1-fa76f2a949b1", "name": {"lang": {"zh": "花嶺_ハナレ"}, "default": "zh"}, "subscribed": true}, {"uuid": "b70a59c4-35a1-5c99-9eca-8e727fb63cae", "name": {"lang": {"zh": "春乃喵喵子official"}, "default": "zh"}, "subscribed": false}, {"uuid": "8d21da50-0e35-5488-8c7e-14527230e29e", "name": {"lang": {"jp": "兎影めう"}, "default": "jp"}, "subscribed": false}, {"uuid": "aef28228-9d9d-5de6-9eeb-cd8fc5988c47", "name": {"lang": {"zh": "立花遥はるか"}, "default": "zh"}, "subscribed": true}, {"uuid": "93b66f77-a3e5-5b88-9249-4401d75d0478", "name": {"lang": {"jp": "白上フブキ", "zh": "白上吹雪"}, "default": "jp"}, "subscribed": true, "group": "40e82f4e-40d8-539c-87c8-ed17c6ea519f"}, {"uuid": "eb31d49f-dee0-5449-a004-80d7393e5a1c", "name": {"lang": {"zh": "Cielo_Raku"}, "default": "zh"}, "subscribed": false, "group": "687001b6-07e6-56b9-b162-4cb6bebfb64d"}, {"uuid": "1ad8f24a-a79e-51a1-8ec7-acf925fcdb7a", "name": {"lang": {"zh": "污喵污喵哒"}, "default": "zh"}, "subscribed": true}, {"uuid": "25f0db88-325d-5a8b-b8ca-805b7c9df18c", "name": {"lang": {"zh": "稚僮_Rumimi"}, "default": "zh"}, "subscribed": true}, {"uuid": "9d0062eb-41de-581d-8b52-983f6817ce97", "name": {"lang": {"zh": "桃园爱momo"}, "default": "zh"}, "subscribed": false}, {"uuid": "13570914-a5b2-5ebd-94ff-bffabb925eee", "name": {"lang": {"zh": "莉莉斯official"}, "default": "zh"}, "subscribed": false}, {"uuid": "a267250b-cfee-5f3c-9f0d-aa4dafe4851c", "name": {"lang": {"zh": "QB"}, "default": "zh"}, "subscribed": false}, {"uuid": "aaf747bc-1281-59c3-aa55-dd22903e9adc", "name": {"lang": {"zh": "罗兰-official"}, "default": "zh"}, "subscribed": false, "group": "3082b3e2-efad-51ed-8129-48c49e5020b4"}, {"uuid": "a773f693-4e59-5f0b-9af7-67beb2516eeb", "name": {"lang": {"zh": "伊戈罗伯"}, "default": "zh"}, "subscribed": true}, {"uuid": "341ea148-e8ae-5e59-a4fb-f679c8c665f8", "name": {"lang": {"zh": "ShynnKa_白乔"}, "default": "zh"}, "subscribed": true}, {"uuid": "10266374-2142-5e1f-a02f-e38a245b15be", "name": {"lang": {"zh": "妮特_Nito"}, "default": "zh"}, "subscribed": true}, {"uuid": "0bc2ee6f-e8e0-5945-907f-b62c3acdcc13", "name": {"lang": {"zh": "天香沫茗_Official"}, "default": "zh"}, "subscribed": true}, {"uuid": "62f12795-7ad0-5203-a5d8-868d4212b1d2", "name": {"lang": {"zh": "亚诺斯Official"}, "default": "zh"}, "subscribed": false, "group": "6fb3fa4d-5741-5602-b538-0117b8a90348"}, {"uuid": "5c3b9783-efa8-5324-818e-47dcce833c13", "name": {"lang": {"zh": "一芽大"}, "default": "zh"}, "subscribed": false, "group": "db0ee4df-8826-507c-8cd4-dbe478f0c0a8"}, {"uuid": "8364aa5d-c8f8-5fa6-bf1c-64b46eee7e53", "name": {"lang": {"jp": "鈴木勝", "zh": "铃木胜"}, "default": "zh"}, "subscribed": false, "group": "5da64d9a-b5d2-5f3e-ae3c-35ec6aa42492"}, {"uuid": "ce4b7f3f-98fe-505d-8ffd-07a2417da4a1", "name": {"lang": {"jp": "月ノ美兎", "zh": "月之美兔"}, "default": "jp"}, "subscribed": false, "group": "5da64d9a-b5d2-5f3e-ae3c-35ec6aa42492"}, {"uuid": "16fd053d-4c31-5509-a0c8-88742728b544", "name": {"lang": {"zh": "艾奇_Edge"}, "default": "zh"}, "subscribed": false, "group": "e67fb222-1c4e-5f19-84da-9e8beba2c365"}, {"uuid": "811d3c98-95cc-5922-8c0d-14fa97e8ec0a", "name": {"lang": {"zh": "星野ニア_愛瑠"}, "default": "zh"}, "subscribed": true}, {"uuid": "488658f2-ae65-5df9-aa54-10693821f748", "name": {"lang": {"jp": "真綿アルマ", "zh": "真綿真珠星"}, "default": "jp"}, "subscribed": true}, {"uuid": "e2f1566a-135a-5202-b82e-93d6baf63eff", "name": {"lang": {"zh": "星·小q"}, "default": "zh"}, "subscribed": true}, {"uuid": "bfb11198-5cc3-5b05-ac10-f69dc749831f", "name": {"lang": {"zh": "梅芙洛_mefuro"}, "default": "zh"}, "subscribed": false, "group": "fb2c595a-af26-52f1-b433-bf339409d3d4"}, {"uuid": "d4616de0-d684-5f01-97bb-e58de9b655cc", "name": {"lang": {"zh": "瞳凛Torin"}, "default": "zh"}, "subscribed": true}, {"uuid": "55d17356-a818-55b7-9366-bf7b8d4aa35a", "name": {"lang": {"zh": "星原凪Official"}, "default": "zh"}, "subscribed": true, "group": "eb71d898-f15e-591f-acf0-3d07fe77ccfa"}, {"uuid": "38734844-25d6-58ab-8b03-42b00399bbb1", "name": {"lang": {"zh": "牧苏"}, "default": "zh"}, "subscribed": false, "group": "a629223f-5cb6-50df-8d28-5400b4d1c497"}, {"uuid": "d2df2852-da96-5722-9b4f-995d2b9560eb", "name": {"lang": {"zh": "诺娅Sukie"}, "default": "zh"}, "subscribed": true}, {"uuid": "2cf6a579-1919-56c6-8b33-4fd17876e092", "name": {"lang": {"zh": "林莫离_Molly"}, "default": "zh"}, "subscribed": true}, {"uuid": "bb1521c3-27b3-5a9d-a428-0a36b6d48f75", "name": {"lang": {"zh": "喵月"}, "default": "zh"}, "subscribed": true, "group": "6a8d2bed-dc2e-5ce1-a3bd-e31317aa4e23"}, {"uuid": "fda4482f-2d34-5354-a94c-a83d94d3d53f", "name": {"lang": {"zh": "观月怜"}, "default": "zh"}, "subscribed": false}, {"uuid": "0df41876-a5c6-5579-b366-92da122f7e31", "name": {"lang": {"zh": "烟水寒云_Official"}, "default": "zh"}, "subscribed": false, "group": "a2dfbe6d-579b-50da-a404-9d80711403d7"}, {"uuid": "134be371-6177-51f3-811b-4ae81c82b3c4", "name": {"lang": {"jp": "カルロピノ"}, "default": "jp"}, "subscribed": false}, {"uuid": "3168389a-d6e5-5c7e-a7c1-048a283cdc4f", "name": {"lang": {"zh": "叶晞_Official"}, "default": "zh"}, "subscribed": false}, {"uuid": "585684a9-e6af-512f-9f3e-c6c30ee984ab", "name": {"lang": {"zh": "涅梨Nier"}, "default": "zh"}, "subscribed": true}, {"uuid": "6bf15faa-131d-5945-91c5-7f930fa14aec", "name": {"lang": {"zh": "神代盐子"}, "default": "zh"}, "subscribed": true}, {"uuid": "8e1baf2f-a703-5ef5-82c1-2f2a19840d7b", "name": {"lang": {"jp": "渋谷ハジメ"}, "default": "jp"}, "subscribed": true}, {"uuid": "bb097c0c-e7b2-5df7-a139-15c499bfacef", "name": {"lang": {"zh": "毬亚Maria"}, "default": "zh"}, "subscribed": true, "group": "412f3e13-0742-53c3-80e4-a0ea111657d9"}, {"uuid": "ecd83acf-0b93-5802-b5c0-82ad15c48c34", "name": {"lang": {"zh": "林不夜侯"}, "default": "zh"}, "subscribed": false, "group": "a629223f-5cb6-50df-8d28-5400b4d1c497"}, {"uuid": "3e019b3a-acd7-562f-b8b1-9fb382ef60ef", "name": {"lang": {"zh": "恩缇_Nte"}, "default": "zh"}, "subscribed": false}, {"uuid": "3f1e0e6f-8306-582a-970b-bdc5cf5a261b", "name": {"lang": {"zh": "阿莉娅Aliya_"}, "default": "zh"}, "subscribed": true}, {"uuid": "cc19c843-a079-541b-9133-4b79f5d47dde", "name": {"lang": {"zh": "陌星之韵_Channel"}, "default": "zh"}, "subscribed": true}, {"uuid": "1683c3e4-8c18-52bf-95a1-989ecef65d1d", "name": {"lang": {"zh": "魔法少女初柒"}, "default": "zh"}, "subscribed": false}, {"uuid": "f06d5914-1161-5d57-b4c1-0c1fe9812624", "name": {"lang": {"jp": "音琴かなみ", "zh": "音琴かなみ_official"}, "default": "zh"}, "subscribed": false}, {"uuid": "42a0273c-0047-529b-90fc-750eac0c73f6", "name": {"lang": {"zh": "白璃"}, "default": "zh"}, "subscribed": false, "group": "9fbdaca0-7e23-551b-83ce-22c60b226c51"}, {"uuid": "258fda46-42b9-5fd0-aafb-f54d8337eb5e", "name": {"lang": {"zh": "橘柠院"}, "default": "zh"}, "subscribed": false}, {"uuid": "a2f24716-ad08-5ecb-8de8-35a6c33564dd", "name": {"lang": {"zh": "影奈音绪"}, "default": "zh"}, "subscribed": false, "group": "faf257d3-81df-564d-b5ae-2d9fd694675c"}, {"uuid": "1f2b0982-c2d3-55b3-9f37-29b73f4fdb0c", "name": {"lang": {"jp": "陽夏のの", "zh": "阳夏诺诺"}, "default": "jp"}, "subscribed": false, "group": "f2fd7bb2-a25a-597e-bf64-9bb35241fccb"}, {"uuid": "de45a27d-a0b5-5c32-a222-1fc3af7b1756", "name": {"lang": {"zh": "DrKuronoOfficial"}, "default": "zh"}, "subscribed": true}, {"uuid": "f7578ab9-37ff-5b08-a5dc-2c9ba8534c61", "name": {"lang": {"zh": "橘真白"}, "default": "zh"}, "subscribed": true, "group": "5738c8e4-809a-5396-b107-81261d6a3907"}, {"uuid": "181ee7dc-59f7-5491-88a8-2062d294e957", "name": {"lang": {"zh": "山城"}, "default": "zh"}, "subscribed": false, "group": "f2206359-f293-5021-9030-fde29ad68bb2"}, {"uuid": "b93dc3b9-f5a4-57ea-a99c-b987823cbbd1", "name": {"lang": {"zh": "天羽ちよこ"}, "default": "zh"}, "subscribed": false}, {"uuid": "e089d047-a2ae-5fb8-a7fa-c11ca6065616", "name": {"lang": {"jp": "一伊那尓栖", "en": "Ninomae Ina'nis", "zh": "一伊那尓栖"}, "default": "zh"}, "subscribed": false, "group": "d406e5da-ef7d-5e0f-9439-264188944758"}, {"uuid": "f0289287-d23c-53c7-8e8c-2d767713cd1f", "name": {"lang": {"zh": "紫齐_Official"}, "default": "zh"}, "subscribed": true, "group": "ee816e2d-0287-51df-b3d9-3c930e3e1474"}, {"uuid": "a77737a0-3072-5875-872f-519430f2ff71", "name": {"lang": {"zh": "米香"}, "default": "zh"}, "subscribed": true}, {"uuid": "eeda3fb0-7414-5553-a365-5e2af25f799b", "name": {"lang": {"jp": "竜胆尊", "zh": "龙胆尊"}, "default": "jp"}, "subscribed": false, "group": "5da64d9a-b5d2-5f3e-ae3c-35ec6aa42492"}, {"uuid": "f9b4f0fd-141f-558d-9950-a5957a13823c", "name": {"lang": {"zh": "星野琳奈"}, "default": "zh"}, "subscribed": false}, {"uuid": "82d383d4-3c37-5ce1-9891-0287715f0330", "name": {"lang": {"zh": "墨茶Official"}, "default": "zh"}, "subscribed": false}, {"uuid": "3a3d4021-840d-5234-b0cd-558695a7f876", "name": {"lang": {"zh": "辉煌荣耀"}, "default": "zh"}, "subscribed": true}, {"uuid": "1808e2a5-c84e-5643-8a73-46f730be48d2", "name": {"lang": {"zh": "泽叶Sawayo"}, "default": "zh"}, "subscribed": false, "group": "8344f00c-6fb0-5bd5-a14b-45a620e4479d"}, {"uuid": "8dbe2ebb-0a74-5a26-8bfd-ef905d03dbf8", "name": {"lang": {"zh": "秘密结社黑盾"}, "default": "zh"}, "subscribed": false}, {"uuid": "45e95578-fd46-5310-a127-c59b40382b6b", "name": {"lang": {"zh": "西園寺メアリ搬运组"}, "default": "zh"}, "subscribed": true, "group": "15e9ec4b-006f-5bcb-bdd0-8dc56854d6f4"}, {"uuid": "5767469c-62d5-50a6-9f4b-695e205686fe", "name": {"lang": {"zh": "白都唯"}, "default": "zh"}, "subscribed": false}, {"uuid": "b5312adf-dd9c-50d6-a105-d27beb2035e9", "name": {"lang": {"zh": "早濑弥生Official"}, "default": "zh"}, "subscribed": true}, {"uuid": "2cf477ad-2736-5f75-a855-887c89fde73d", "name": {"lang": {"jp": "桃鈴ねね", "en": "Momosuzu Nene", "zh": "桃铃音音"}, "default": "zh"}, "subscribed": true, "group": "40e82f4e-40d8-539c-87c8-ed17c6ea519f"}, {"uuid": "8e09ec71-f466-5ce3-b3b3-65c2a0931ef3", "name": {"lang": {"zh": "兔尤好困w"}, "default": "zh"}, "subscribed": false}, {"uuid": "4e06b044-63a4-51b2-b8c5-bdab3a8dde06", "name": {"lang": {"zh": "落樱Official"}, "default": "zh"}, "subscribed": true, "group": "9149cba3-59e7-5dfe-84a4-4a8d3280de91"}, {"uuid": "9d5ab273-75d4-5910-9224-0514d1396de6", "name": {"lang": {"jp": "夏鶴儀", "en": "Natsu Tsurugi", "zh": "夏鹤仪"}, "default": "zh"}, "subscribed": true, "group": "f076e35d-500d-57ba-9149-6caed8275768"}, {"uuid": "5c224352-7300-51d8-b54c-9b8a8aeb9f25", "name": {"lang": {"zh": "星月空_official"}, "default": "zh"}, "subscribed": false}, {"uuid": "e0aed904-72c9-5e10-85a5-7e1afc84daf4", "name": {"lang": {"zh": "芙栗希娅Felicia"}, "default": "zh"}, "subscribed": true}, {"uuid": "44b02fb4-573e-5b6e-ac2e-ec3c56528e85", "name": {"lang": {"zh": "もこ田めめめofficial"}, "default": "zh"}, "subscribed": true, "group": "02f5f560-4646-5fcb-ac58-81279c7e2c1e"}, {"uuid": "8edbd10c-15af-54af-832b-08492d39fda2", "name": {"lang": {"zh": "巳社しらべOfficial"}, "default": "zh"}, "subscribed": false}, {"uuid": "c0e9f559-6658-58b4-bb9b-7ce0a2738ab1", "name": {"lang": {"zh": "陆然-陆知愠Official"}, "default": "zh"}, "subscribed": true}, {"uuid": "206c938e-5510-56db-bb6d-fd8fca68a7a2", "name": {"lang": {"zh": "傲丙初Official"}, "default": "zh"}, "subscribed": true}, {"uuid": "177064cd-f3ce-534e-b066-14123ddcee2f", "name": {"lang": {"zh": "ふたもちやまいOfficial"}, "default": "zh"}, "subscribed": true, "group": "9afbc338-b7f6-5fa2-ab88-4762d8ad2fa7"}, {"uuid": "ebc4f15b-d431-572d-936d-b938abe50b46", "name": {"lang": {"zh": "わかさーん"}, "default": "zh"}, "subscribed": false}, {"uuid": "f92a2155-f10d-5567-acff-7a7267ae9d96", "name": {"lang": {"zh": "千羽黑乃official"}, "default": "zh"}, "subscribed": true}, {"uuid": "93f88179-7770-5730-ac6f-647ac485ac8d", "name": {"lang": {"en": "te'resa", "zh": "特雷莎"}, "default": "en"}, "subscribed": true, "group": "8e11a33b-c9e1-574f-8300-c8e5aa050010"}, {"uuid": "3d8c7ea9-e7be-58a5-86d0-6da7eb815db4", "name": {"lang": {"zh": "驿双Ethan_Channel"}, "default": "zh"}, "subscribed": true, "group": "7dca71c6-bfdb-54b3-b730-ce273928c7d5"}, {"uuid": "08e514da-1504-50eb-b331-ec3675a839d5", "name": {"lang": {"jp": "藤咲ミア", "zh": "藤咲mia"}, "default": "zh"}, "subscribed": true}, {"uuid": "2c6f93af-5c93-5696-8bd1-47ce0e967388", "name": {"lang": {"zh": "白白_Anlessya"}, "default": "zh"}, "subscribed": true}, {"uuid": "2a8fa0c3-aee1-5824-a934-687f003e0c37", "name": {"lang": {"zh": "残夜暗杀_Official"}, "default": "zh"}, "subscribed": true}, {"uuid": "d92eab98-0ae5-5312-b55f-110c24e74f1f", "name": {"lang": {"zh": "娜娜米Official"}, "default": "zh"}, "subscribed": false, "group": "ae491a1c-c400-5e88-9eb6-3622c698f8f1"}, {"uuid": "7d8a2fb5-aea6-5ebf-a5be-7fa39ff51df1", "name": {"lang": {"jp": "来栖らいあ", "en": "Kurusu Raia"}, "default": "jp"}, "subscribed": true}, {"uuid": "e45acb16-96c1-5400-a4bd-9547e87a5d74", "name": {"lang": {"zh": "霜空Neco"}, "default": "zh"}, "subscribed": true}, {"uuid": "dbc38bd5-ca03-5282-ac84-e87f82dfb421", "name": {"lang": {"jp": "日向にゃみ"}, "default": "jp"}, "subscribed": true}, {"uuid": "dbcc8e82-66c3-5547-b9ad-5e2d80f57a34", "name": {"lang": {"zh": "初音未来LStype"}, "default": "zh"}, "subscribed": false}, {"uuid": "fb556b49-888f-5e19-860a-5533e30301ca", "name": {"lang": {"zh": "欧翼_official"}, "default": "zh"}, "subscribed": false}, {"uuid": "bfbf710c-1cbf-5d13-96c8-c6f468b054c6", "name": {"lang": {"zh": "沙华Candy"}, "default": "zh"}, "subscribed": false}, {"uuid": "52c01b6d-ba1f-5c29-887a-e776de4a3c60", "name": {"lang": {"zh": "萌流Mofuu"}, "default": "zh"}, "subscribed": false}, {"uuid": "35cfd08d-c723-539d-b423-00ea8b6832ea", "name": {"lang": {"en": "Ventrue", "zh": "梵卓"}, "default": "zh"}, "subscribed": true}, {"uuid": "84d987b4-2a25-5bcb-80f1-d45495ee3f43", "name": {"lang": {"zh": "佚夜iya"}, "default": "zh"}, "subscribed": false, "group": "277aa1f8-ebf7-5d6c-b6f3-dfecfdfd44c2"}, {"uuid": "b98c17da-369b-5dc2-b80b-60a83f6958fd", "name": {"lang": {"zh": "月咏伢Official"}, "default": "zh"}, "subscribed": false, "group": "eb71d898-f15e-591f-acf0-3d07fe77ccfa"}, {"uuid": "771969d3-b61d-561d-a119-de179514577e", "name": {"lang": {"zh": "咲间妮娜Official"}, "default": "zh"}, "subscribed": false, "group": "412f3e13-0742-53c3-80e4-a0ea111657d9"}, {"uuid": "e46d19b7-9ec0-5d48-9f9b-b98b20bcac71", "name": {"lang": {"zh": "星雨透_Channel"}, "default": "zh"}, "subscribed": true}, {"uuid": "e8e27c90-1381-569a-9cb6-26a3e9abe21b", "name": {"lang": {"zh": "勀宝_Chocolate"}, "default": "zh"}, "subscribed": false}, {"uuid": "714da86b-3d4d-5b76-b2f3-e14396069440", "name": {"lang": {"zh": "胡桃いく"}, "default": "zh"}, "subscribed": true}, {"uuid": "e2834ba7-db5e-5adf-ab63-bfff2971a217", "name": {"lang": {"zh": "步玎Pudding"}, "default": "zh"}, "subscribed": false, "group": "f076e35d-500d-57ba-9149-6caed8275768"}, {"uuid": "fa493b37-fbd9-5498-97d4-c85149aba86d", "name": {"lang": {"zh": "蕉灼_Channel"}, "default": "zh"}, "subscribed": false, "group": "e85f1e0a-82b5-532f-beac-5bff83b7b905"}, {"uuid": "623dda9a-5c55-59ad-bf45-e70d5dbf6a12", "name": {"lang": {"zh": "千時静"}, "default": "zh"}, "subscribed": true, "group": "0a7ccefa-fb4f-53ee-8010-9a62823d9781"}, {"uuid": "7ebf19df-5ab4-5137-81c8-65d330ef13d2", "name": {"lang": {"zh": "桃川久美_Kumi"}, "default": "zh"}, "subscribed": false}, {"uuid": "e57817d1-bfd2-5392-90b0-7a66e32c05d8", "name": {"lang": {"jp": "Akane", "zh": "赤音"}, "default": "zh"}, "subscribed": true, "group": "ee2d6579-f7b2-59e4-be05-ca88f4bdff7d"}, {"uuid": "8989aa39-b094-5a37-b185-dd52c81a5d83", "name": {"lang": {"jp": "天衣ゆめ"}, "default": "jp"}, "subscribed": true}, {"uuid": "19e4ef43-6a9d-5ff5-b79b-d59e8c98d19e", "name": {"lang": {"jp": "米プリンセス", "en": "MaiPrincess"}, "default": "en"}, "subscribed": true}, {"uuid": "5a2e91f1-c7fc-5bb1-9285-b9c57c4159f1", "name": {"lang": {"zh": "雷米尔Remiel"}, "default": "zh"}, "subscribed": false}, {"uuid": "399144f9-1d16-5e19-828e-8c89afdc5711", "name": {"lang": {"jp": "ケリン", "en": "Kerin"}, "default": "jp"}, "subscribed": false}, {"uuid": "65fbf80a-6f51-5c16-97cb-5b57be8109ec", "name": {"lang": {"zh": "南小棉_みちゃん"}, "default": "zh"}, "subscribed": false, "group": "e67fb222-1c4e-5f19-84da-9e8beba2c365"}, {"uuid": "10cd2946-0b56-501d-b60a-64ef0d7cb273", "name": {"lang": {"en": "Maria", "zh": "木易"}, "default": "zh"}, "subscribed": true}, {"uuid": "d2a9649f-1651-5fb2-bf95-445812e2134f", "name": {"lang": {"zh": "塩田伊緖Official"}, "default": "zh"}, "subscribed": true}, {"uuid": "c316ca45-284f-58f0-a8d2-bec83f5f2241", "name": {"lang": {"zh": "打酱油的魔神_Channel"}, "default": "zh"}, "subscribed": false}, {"uuid": "4dc5767b-16ce-57aa-87fa-e5c2600900f2", "name": {"lang": {"zh": "温之九Dolores"}, "default": "zh"}, "subscribed": false, "group": "277aa1f8-ebf7-5d6c-b6f3-dfecfdfd44c2"}, {"uuid": "0ab57f16-439d-56c2-a875-d4ce9d93a731", "name": {"lang": {"zh": "白一鸢_Channel"}, "default": "zh"}, "subscribed": false, "group": "687001b6-07e6-56b9-b162-4cb6bebfb64d"}, {"uuid": "95f9fe82-b240-58eb-a5b6-1ca974634d5b", "name": {"lang": {"zh": "咸鱼味的米粉儿"}, "default": "zh"}, "subscribed": false}, {"uuid": "f4a24053-461d-5e93-8e01-987437d1a8aa", "name": {"lang": {"zh": "三川咲"}, "default": "zh"}, "subscribed": true}, {"uuid": "7666a10c-b134-57b4-8d4c-9b6e24082567", "name": {"lang": {"zh": "暴食Hunger"}, "default": "zh"}, "subscribed": false, "group": "6a8d2bed-dc2e-5ce1-a3bd-e31317aa4e23"}, {"uuid": "3d306c79-34e4-56d2-b708-1e4f0f23875a", "name": {"lang": {"en": "Lynn", "zh": "林玲"}, "default": "zh"}, "subscribed": false, "group": "7ce978ae-b348-57cd-804f-4c5fae6852bd"}, {"uuid": "cb0ae042-c532-5d44-b81f-1275107fe787", "name": {"lang": {"jp": "三雲", "zh": "三云"}, "default": "zh"}, "subscribed": true}, {"uuid": "93b955c3-3112-5184-9ef5-a5377ac27d99", "name": {"lang": {"zh": "墨喵星突突母舰Official"}, "default": "zh"}, "subscribed": false}, {"uuid": "7ba80e8f-7674-5d52-b3ea-e74bd51e15be", "name": {"lang": {"zh": "帕洛特"}, "default": "zh"}, "subscribed": false, "group": "8d3239cd-4811-570e-a968-7c582e46ead0"}, {"uuid": "c0eff4bb-5f6b-50aa-a125-cd13d438383f", "name": {"lang": {"zh": "庞小莹"}, "default": "zh"}, "subscribed": false, "group": "8d3239cd-4811-570e-a968-7c582e46ead0"}, {"uuid": "bfb11c8f-b5f6-5e7b-8d11-9611ac9193bc", "name": {"lang": {"zh": "川崎桐切Official"}, "default": "zh"}, "subscribed": true}, {"uuid": "8e15f8d9-4255-5168-8953-9c4851ce9048", "name": {"lang": {"zh": "玛琳璱Official"}, "default": "zh"}, "subscribed": true}, {"uuid": "e83faab4-9522-5839-b9aa-4b69d83c68e2", "name": {"lang": {"zh": "カルロ・ピノofficial"}, "default": "zh"}, "subscribed": false, "group": "02f5f560-4646-5fcb-ac58-81279c7e2c1e"}, {"uuid": "7badb88f-871d-5acf-8e67-d89cf7b753a0", "name": {"lang": {"zh": "是花小曦"}, "default": "zh"}, "subscribed": true, "group": "0c0c81b5-fc69-5ee9-a2cb-f77fb303b682"}, {"uuid": "88be70b5-1ed6-5af6-bda5-8f7752eafd06", "name": {"lang": {"zh": "PochiKorone"}, "default": "zh"}, "subscribed": true}, {"uuid": "3773fa88-e2a6-5eb4-a4f6-0399873d66ab", "name": {"lang": {"kr": "天使猫Parfaitty"}, "default": "kr"}, "subscribed": false}], "groups": [{"uuid": "02f5f560-4646-5fcb-ac58-81279c7e2c1e", "name": {"lang": {"zh": ".Live"}, "default": "zh"}}, {"uuid": "15e9ec4b-006f-5bcb-bdd0-8dc56854d6f4", "name": {"lang": {"zh": "774 inc"}, "default": "zh"}}, {"uuid": "a0ee759e-2876-5954-a8fd-fb8bf8db84d2", "name": {"lang": {"zh": "A-SOUL"}, "default": "zh"}}, {"uuid": "5c3f4d98-1348-52e0-8a14-832879275933", "name": {"lang": {"zh": "ACGN Project"}, "default": "zh"}}, {"uuid": "22c2893d-8037-5243-9944-40b33731673e", "name": {"lang": {"zh": "ADTB社团"}, "default": "zh"}}, {"uuid": "9d2dee5d-4e1d-5faa-8398-7e769bb0a7cc", "name": {"lang": {"jp": "ALIVE MUSIX"}, "default": "jp"}}, {"uuid": "4feeb7e5-cdef-5d2b-bd57-17600127ee14", "name": {"lang": {"zh": "ARTs学院"}, "default": "zh"}}, {"uuid": "a7372824-0ebf-5683-b7a3-550ab1c13f80", "name": {"lang": {"zh": "AVP古流社"}, "default": "zh"}}, {"uuid": "a2f8bb9b-1b8c-5784-a887-be736c63355f", "name": {"lang": {"zh": "Acc加速社"}, "default": "zh"}}, {"uuid": "fa86cc75-0288-55e4-a6f9-e1c4134a8ec0", "name": {"lang": {"en": "Afutech"}, "default": "en"}}, {"uuid": "dea65e99-8859-5f68-a768-6898e68bb666", "name": {"lang": {"en": "Aien"}, "default": "en"}}, {"uuid": "8344f00c-6fb0-5bd5-a14b-45a620e4479d", "name": {"lang": {"en": "AliceHeart"}, "default": "en"}}, {"uuid": "6e454c59-bb29-591d-b70b-b18b44d2a8e5", "name": {"lang": {"en": "And2girls"}, "default": "en"}}, {"uuid": "4fb34397-207d-5ab7-babc-4217358edcd1", "name": {"lang": {"zh": "Another Project"}, "default": "zh"}}, {"uuid": "0f902cbd-31df-53cd-8f5e-a61e02097a25", "name": {"lang": {"zh": "Antinomy13"}, "default": "zh"}}, {"uuid": "a4f5b5e7-009f-5164-abb8-e2bc4e580086", "name": {"lang": {"zh": "Aurora"}, "default": "zh"}}, {"uuid": "fe322361-ebad-52de-8494-089e3205892b", "name": {"lang": {"en": "Avis"}, "default": "en"}}, {"uuid": "c9d461d8-ada6-5bb4-a347-42d6a30813e0", "name": {"lang": {"zh": "CASA"}, "default": "zh"}}, {"uuid": "b6c4b873-8000-5178-a76e-4c47aef07d6e", "name": {"lang": {"zh": "CommonEra"}, "default": "zh"}}, {"uuid": "934f32b5-19fa-515d-ac7a-b4c95d8774cb", "name": {"lang": {"zh": "CatsChainReaction链式猫"}, "default": "zh"}}, {"uuid": "e67fb222-1c4e-5f19-84da-9e8beba2c365", "name": {"lang": {"zh": "ChaosLive·Sprout"}, "default": "zh"}}, {"uuid": "dc1aefce-ccce-5bdb-8170-e871ffaefbd6", "name": {"lang": {"zh": "Chobits-live"}, "default": "zh"}}, {"uuid": "95596f4b-a413-5afe-a0f9-35c596f4543d", "name": {"lang": {"zh": "Citrus柑橘社"}, "default": "zh"}}, {"uuid": "b29095e6-c178-5900-871c-349e426ad495", "name": {"lang": {"en": "CloudConnecting"}, "default": "en"}}, {"uuid": "48bf8c2f-59f0-594f-bb5d-0172fce17507", "name": {"lang": {"zh": "Code378"}, "default": "zh"}}, {"uuid": "aff6a844-e15a-5322-b6cd-4d07df0475b3", "name": {"lang": {"zh": "CodeEcho"}, "default": "zh"}}, {"uuid": "4af017fc-2b52-56ed-8ba9-b7e3e11dba56", "name": {"lang": {"jp": "cocolive", "zh": "Creator_Coffee_P"}, "default": "zh"}}, {"uuid": "af7d8e20-2164-5373-a4b1-9a31c085fb7b", "name": {"lang": {"zh": "Croven教团"}, "default": "zh"}}, {"uuid": "78f9c877-f18b-5e6e-8747-48193f5850b8", "name": {"lang": {"zh": "DR梦境社"}, "default": "zh"}}, {"uuid": "64d3ad41-44fa-5124-8134-c06087f69f5f", "name": {"lang": {"zh": "DUSTLIVE微尘计划"}, "default": "zh"}}, {"uuid": "8ddf8a4d-c59b-51fc-a7b5-1b12d46e96f0", "name": {"lang": {"zh": "Diphylia"}, "default": "zh"}}, {"uuid": "158ce246-eb9b-57cd-99c1-dc8517d814bc", "name": {"lang": {"zh": "Double_project"}, "default": "zh"}}, {"uuid": "f2206359-f293-5021-9030-fde29ad68bb2", "name": {"lang": {"en": "DreamHorizon"}, "default": "en"}}, {"uuid": "70a6e7b1-b146-5470-a186-39085c45c7ad", "name": {"lang": {"en": "DuckDriver"}, "default": "en"}}, {"uuid": "ee2d6579-f7b2-59e4-be05-ca88f4bdff7d", "name": {"lang": {"zh": "EGOLIVE"}, "default": "zh"}}, {"uuid": "4fe7c38e-751f-58dc-9b27-c2559af94c22", "name": {"lang": {"en": "ENIAC"}, "default": "en"}}, {"uuid": "3082b3e2-efad-51ed-8129-48c49e5020b4", "name": {"lang": {"zh": "EraVerses"}, "default": "zh"}}, {"uuid": "ef62fd18-c22b-5457-9453-48819f385b8f", "name": {"lang": {"zh": "EroS"}, "default": "zh"}}, {"uuid": "621939ef-f164-5a7c-bd19-aadbe9679b01", "name": {"lang": {"zh": "Facemoe官方"}, "default": "zh"}}, {"uuid": "d0bc1877-9a3d-5c32-987e-e4d4ac15a3a0", "name": {"lang": {"zh": "Ferret女学院"}, "default": "zh"}}, {"uuid": "de5c38bf-6baa-557a-ab50-70021dfd22b1", "name": {"lang": {"en": "FiestaLand"}, "default": "en"}}, {"uuid": "dbb92931-4f6d-52df-b21b-a2ad11fc251e", "name": {"lang": {"en": "Function"}, "default": "en"}}, {"uuid": "3eec40df-4d0f-5776-b695-8ef7e1f3fa74", "name": {"lang": {"zh": "Future Land"}, "default": "zh"}}, {"uuid": "62f90b65-e8cd-54b1-bae2-ed0fc47d063c", "name": {"lang": {"zh": "GEMS_COMPANY官方"}, "default": "zh"}}, {"uuid": "fb6c271a-b8c6-59cf-aaa2-c9d57e8d401a", "name": {"lang": {"zh": "Gliese"}, "default": "zh"}}, {"uuid": "6d396a6b-d04b-5b93-808d-f05729aa721a", "name": {"lang": {"zh": "Gn-Gg社"}, "default": "zh"}}, {"uuid": "d406e5da-ef7d-5e0f-9439-264188944758", "name": {"lang": {"zh": "Hololive EN"}, "default": "zh"}}, {"uuid": "40e82f4e-40d8-539c-87c8-ed17c6ea519f", "name": {"lang": {"jp": "ホロライブ公式", "en": "Hololive"}, "default": "en"}}, {"uuid": "98d092b6-00c1-5728-ac4b-6ace0d407d57", "name": {"lang": {"zh": "IPG联合"}, "default": "zh"}}, {"uuid": "9afbc338-b7f6-5fa2-ab88-4762d8ad2fa7", "name": {"lang": {"en": "IPwork", "zh": "IP社"}, "default": "en"}}, {"uuid": "88c223e0-cbda-5829-852c-f272142fec71", "name": {"lang": {"zh": "KC club"}, "default": "zh"}}, {"uuid": "7dca71c6-bfdb-54b3-b730-ce273928c7d5", "name": {"lang": {"jp": "KonKoe"}, "default": "jp"}}, {"uuid": "db0ee4df-8826-507c-8cd4-dbe478f0c0a8", "name": {"lang": {"en": "LBG"}, "default": "en"}}, {"uuid": "a55e1daa-b902-5dcd-8447-85ed6609b1b5", "name": {"lang": {"zh": "LepusLive"}, "default": "zh"}}, {"uuid": "f2fd7bb2-a25a-597e-bf64-9bb35241fccb", "name": {"lang": {"en": "LiveCartoon"}, "default": "en"}}, {"uuid": "5e38bdf6-be61-55df-9c48-45bf6220dda3", "name": {"lang": {"en": "Lounge_LUTUBO", "zh": "Lounge_LUTUBO"}, "default": "zh"}}, {"uuid": "448c9cb0-32d9-554e-9da8-b47f0e26ffed", "name": {"lang": {"zh": "虚拟主播社团PRO-Lucain"}, "default": "zh"}}, {"uuid": "5738c8e4-809a-5396-b107-81261d6a3907", "name": {"lang": {"en": "Lucca"}, "default": "en"}}, {"uuid": "42dffa71-00ea-5f6b-8c4f-5f78134ed38e", "name": {"lang": {"zh": "LupinusVG公式"}, "default": "zh"}}, {"uuid": "bf876843-cb50-5386-af32-4094a74ee86c", "name": {"lang": {"zh": "MCP-沐云计划"}, "default": "zh"}}, {"uuid": "8d3239cd-4811-570e-a968-7c582e46ead0", "name": {"lang": {"zh": "MZ次元"}, "default": "zh"}}, {"uuid": "25792bc0-6d62-50b1-8089-cb1ec922b5a8", "name": {"lang": {"en": "Makuroka"}, "default": "en"}}, {"uuid": "e7c5c642-480d-5f15-81a4-66cefd3975e0", "name": {"lang": {"zh": "MarbleCreators"}, "default": "zh"}}, {"uuid": "8ab1de5c-4685-579a-8a96-b85c83636906", "name": {"lang": {"zh": "MeUmyShelf"}, "default": "zh"}}, {"uuid": "da920113-15d7-5094-8475-71c887d37f0d", "name": {"lang": {"zh": "Miracle-Link"}, "default": "zh"}}, {"uuid": "89382922-bb93-5a94-94b6-06f217575139", "name": {"lang": {"zh": "Mlik Cat 奶猫协会"}, "default": "zh"}}, {"uuid": "9934d233-a130-5459-8554-ecc7234d2891", "name": {"lang": {"en": "MochiPro"}, "default": "en"}}, {"uuid": "1c22567f-c174-5e1c-b4d4-78389bf39d09", "name": {"lang": {"jp": "MofuMofu Fantasista"}, "default": "jp"}}, {"uuid": "b5e56b02-c1f5-5c5b-85d3-870a392d3d8a", "name": {"lang": {"zh": "NEBULA"}, "default": "zh"}}, {"uuid": "98f1964b-de8a-586b-bb1a-6a3de476727d", "name": {"lang": {"en": "NGWORKS"}, "default": "en"}}, {"uuid": "5da64d9a-b5d2-5f3e-ae3c-35ec6aa42492", "name": {"lang": {"zh": "NIJISANJI"}, "default": "zh"}}, {"uuid": "0a7ccefa-fb4f-53ee-8010-9a62823d9781", "name": {"lang": {"en": "Nameless Project"}, "default": "en"}}, {"uuid": "687001b6-07e6-56b9-b162-4cb6bebfb64d", "name": {"lang": {"en": "Nature"}, "default": "en"}}, {"uuid": "60c77bfe-cd1e-5717-9b0f-152bc5f9a27e", "name": {"lang": {"en": "Nebula-Beat​", "zh": "星律动"}, "default": "zh"}}, {"uuid": "6203f877-a1f8-5c61-99bb-ed20fd02ffef", "name": {"lang": {"zh": "No.6 Channel"}, "default": "zh"}}, {"uuid": "5ca43bb4-d060-578e-a040-2d924bab8fb1", "name": {"lang": {"zh": "NoriPro"}, "default": "zh"}}, {"uuid": "ce23afd2-6f1a-5106-b1d6-09980187f549", "name": {"lang": {"en": "Normalization Project"}, "default": "en"}}, {"uuid": "d3d6111b-0610-57fd-af15-f0569ea0ba0a", "name": {"lang": {"zh": "NornsProject"}, "default": "zh"}}, {"uuid": "e0f09763-4407-5035-b58c-d6750e6c140f", "name": {"lang": {"en": "P-Hephaestus"}, "default": "en"}}, {"uuid": "f076e35d-500d-57ba-9149-6caed8275768", "name": {"lang": {"en": "P-SP"}, "default": "en"}}, {"uuid": "9fbdaca0-7e23-551b-83ce-22c60b226c51", "name": {"lang": {"zh": "PKS-Official"}, "default": "zh"}}, {"uuid": "5280227e-7149-51ad-a929-cc2da6852f64", "name": {"lang": {"zh": "POPCORNER官方"}, "default": "zh"}}, {"uuid": "f0f8d8bd-54fa-56cc-ac3a-ee0466f314d5", "name": {"lang": {"zh": "PaimonHell"}, "default": "zh"}}, {"uuid": "d0827515-9a79-5e6a-b445-b1145bacfea4", "name": {"lang": {"zh": "Palette"}, "default": "zh"}}, {"uuid": "25dcec92-82e4-5a70-a909-35e86afd2069", "name": {"lang": {"en": "Perciva", "zh": "珀西瓦"}, "default": "en"}}, {"uuid": "2bcc8411-8cc7-5304-a564-fa7a0acb1766", "name": {"lang": {"zh": "PlutoCharon"}, "default": "zh"}}, {"uuid": "ccfa8b1f-4bae-50a0-9252-21c47c901240", "name": {"lang": {"en": "Project Cyto"}, "default": "en"}}, {"uuid": "03f37d42-8b64-5cc2-aaa0-ac334aca9a56", "name": {"lang": {"zh": "Project Lupinus"}, "default": "zh"}}, {"uuid": "303f0327-99b2-5643-bbb6-23c48d2a613a", "name": {"lang": {"en": "Project OvO"}, "default": "en"}}, {"uuid": "fdb3ee6d-3a2e-5bfb-b724-aeb9b223de69", "name": {"lang": {"zh": "ProjectViberglow"}, "default": "zh"}}, {"uuid": "538f9a43-553b-521e-b3b9-8199d5840382", "name": {"lang": {"zh": "Project_NyaRi"}, "default": "zh"}}, {"uuid": "9397afca-d6a2-5519-986d-dca40a94f813", "name": {"lang": {"en": "Prototidron"}, "default": "en"}}, {"uuid": "412f3e13-0742-53c3-80e4-a0ea111657d9", "name": {"lang": {"en": "Providence", "zh": "普罗维登"}, "default": "en"}}, {"uuid": "a5f67427-dbfe-5cb0-be05-ef701454c3aa", "name": {"lang": {"zh": "P家"}, "default": "zh"}}, {"uuid": "987f6e87-c3ef-5c17-8079-5dfdab027074", "name": {"lang": {"zh": "REDCircle红圈社"}, "default": "zh"}}, {"uuid": "237a4185-0f24-5da0-b270-a259328e744d", "name": {"lang": {"zh": "RantitogaProject"}, "default": "zh"}}, {"uuid": "7160ffcb-737e-5a07-b9c1-f130ff46cbee", "name": {"lang": {"en": "Re.Eden伊甸园"}, "default": "en"}}, {"uuid": "6696f9f6-e159-5fa0-882a-1b1213a68556", "name": {"lang": {"zh": "Re:AcT"}, "default": "zh"}}, {"uuid": "83e3c722-dd6d-5c51-a5cc-92d5ee4dcb9f", "name": {"lang": {"en": "SOW"}, "default": "en"}}, {"uuid": "0e2e2085-33c6-5205-a9e2-81702f20a7b0", "name": {"lang": {"en": "SSR", "zh": "星露社"}, "default": "zh"}}, {"uuid": "8191e3b1-9045-5b06-91cf-8f08baf0fde6", "name": {"lang": {"jp": "StarryNight"}, "default": "jp"}}, {"uuid": "2a539dd2-fb7d-578c-8730-153bb8874a62", "name": {"lang": {"zh": "StarrySky战姬学院"}, "default": "zh"}}, {"uuid": "cd523351-a878-58fa-a097-0e6217b2ce5d", "name": {"lang": {"zh": "TTTeam"}, "default": "zh"}}, {"uuid": "d4d3135b-dd1c-57e2-9122-a249c97d40e7", "name": {"lang": {"zh": "TheVirkyrie"}, "default": "zh"}}, {"uuid": "e2e54677-6608-5996-9976-464cfd4ed739", "name": {"lang": {"en": "Tinsgoo-Project", "zh": "听世"}, "default": "en"}}, {"uuid": "093738a6-1f21-5910-86d3-2a00c029afd6", "name": {"lang": {"zh": "Tourist-V"}, "default": "zh"}}, {"uuid": "63ddd5e3-d91b-5c18-8818-dd849b0a9436", "name": {"lang": {"zh": "UV社"}, "default": "zh"}}, {"uuid": "4bb946b7-6b9d-5b28-8975-f23291cba191", "name": {"lang": {"jp": "ゆにクリエイト", "en": "Unicreate"}, "default": "en"}}, {"uuid": "70a4cc30-079d-5e45-9d46-84c6194eb0c6", "name": {"lang": {"zh": "Unlimited"}, "default": "zh"}}, {"uuid": "0b7d637d-0ea2-5381-b0ea-81bcff5f13ad", "name": {"lang": {"zh": "V-dol事务所"}, "default": "zh"}}, {"uuid": "f91c8cd6-c548-5ff2-a7de-e7d47d92c851", "name": {"lang": {"en": "VGaming"}, "default": "en"}}, {"uuid": "44ffc461-168b-56f3-9458-0f450b0b36a2", "name": {"lang": {"zh": "VIC"}, "default": "zh"}}, {"uuid": "a9c452b8-faba-53d1-92ad-83337135e2c3", "name": {"lang": {"zh": "VOMNIS"}, "default": "zh"}}, {"uuid": "2cfbce43-39bb-5ab8-9c20-f6b59bbbce7f", "name": {"lang": {"zh": "VTNeko"}, "default": "zh"}}, {"uuid": "30f0a6c7-e49d-56b9-8dd9-60bf6539212b", "name": {"lang": {"en": "Virtual Genesis"}, "default": "en"}}, {"uuid": "faf257d3-81df-564d-b5ae-2d9fd694675c", "name": {"lang": {"jp": "Virtual Dove鸽舍", "en": "Vi-D鸽舍"}, "default": "en"}}, {"uuid": "e0c583c9-7625-53bd-84c1-5cca0c419a7b", "name": {"lang": {"en": "ViViD"}, "default": "en"}}, {"uuid": "7bf7dc58-48f6-55cd-8bdb-cf5fa31d8a77", "name": {"lang": {"zh": "Vidol工作室"}, "default": "zh"}}, {"uuid": "277aa1f8-ebf7-5d6c-b6f3-dfecfdfd44c2", "name": {"lang": {"zh": "VirloProject"}, "default": "zh"}}, {"uuid": "227ed47e-4565-5692-b1cc-154463a73773", "name": {"lang": {"zh": "Virtopia"}, "default": "zh"}}, {"uuid": "6a8d2bed-dc2e-5ce1-a3bd-e31317aa4e23", "name": {"lang": {"zh": "VirtuaReal"}, "default": "zh"}}, {"uuid": "335986d3-a35c-5a0d-98a7-7891d9f33956", "name": {"lang": {"zh": "VirtualConcept"}, "default": "zh"}}, {"uuid": "b397df70-8418-5dc0-94c4-e8973f1316c8", "name": {"lang": {"zh": "VirtualToolUp"}, "default": "zh"}}, {"uuid": "9abdd959-092b-59ab-aa0e-c4a8a310094a", "name": {"lang": {"jp": "Virtual放送部"}, "default": "jp"}}, {"uuid": "33d285f2-b9a8-595d-a282-4a341ab9d020", "name": {"lang": {"zh": "Vnicorn"}, "default": "zh"}}, {"uuid": "682089de-7fe5-5303-8939-37eeab633407", "name": {"lang": {"zh": "WACTOR-女仆酱"}, "default": "zh"}}, {"uuid": "e9965fab-5b00-5636-bc6c-31bee0a537af", "name": {"lang": {"zh": "WFIE"}, "default": "zh"}}, {"uuid": "5e67c1b9-17c7-5e1a-872d-d72ddf615f99", "name": {"lang": {"zh": "WeHato官方"}, "default": "zh"}}, {"uuid": "f0f6db36-c594-50bd-ae6a-5032878a8ce6", "name": {"lang": {"en": "Wenthernten", "zh": "温瑟藤"}, "default": "en"}}, {"uuid": "f49e8e3e-0dc9-5125-81c6-5c8d6c497f94", "name": {"lang": {"zh": "WonIDOLand虚拟社团"}, "default": "zh"}}, {"uuid": "f4d991d0-7877-5221-aa85-d05f92d404f3", "name": {"lang": {"zh": "YahooTV"}, "default": "zh"}}, {"uuid": "5b24d707-9143-5dbe-8e3c-c38405545e77", "name": {"lang": {"zh": "ZEROproject"}, "default": "zh"}}, {"uuid": "6fb3fa4d-5741-5602-b538-0117b8a90348", "name": {"lang": {"zh": "airΛtom"}, "default": "zh"}}, {"uuid": "f6394251-a0f4-52dd-ba22-4089f60c3d3d", "name": {"lang": {"zh": "cafelive"}, "default": "zh"}}, {"uuid": "a7359b76-4ce6-552e-8a2a-31224a4dd542", "name": {"lang": {"en": "cesirelive"}, "default": "en"}}, {"uuid": "7d14580b-8154-5fdb-9777-b1032d302bfe", "name": {"lang": {"en": "chaoslive"}, "default": "en"}}, {"uuid": "ad652370-a736-537f-aa70-6ee528138364", "name": {"lang": {"zh": "chucolala"}, "default": "zh"}}, {"uuid": "e99f3b51-c9e1-5b68-893f-aa6394d3af86", "name": {"lang": {"jp": "えもえちプロダクション"}, "default": "jp"}}, {"uuid": "9c1b1391-c421-5f8d-ad1d-90eefee8d3e1", "name": {"lang": {"en": "holostars"}, "default": "en"}}, {"uuid": "ea46c33c-8689-5b71-a388-7e2e7e788a36", "name": {"lang": {"en": "inkschool", "zh": "墨水学院"}, "default": "en"}}, {"uuid": "73102f48-57f2-5d59-94ef-7aac41e97f65", "name": {"lang": {"zh": "kanae"}, "default": "zh"}}, {"uuid": "c3de0c58-3df0-5a4f-8224-7297a64c95ce", "name": {"lang": {"zh": "kenlos"}, "default": "zh"}}, {"uuid": "726d2323-bba0-50fa-af4b-92b9f5b6578c", "name": {"lang": {"en": "KingdomKnight"}, "default": "en"}}, {"uuid": "037feda8-c790-5eed-b42e-3bcf55efdba9", "name": {"lang": {"zh": "nene酱捉梦社"}, "default": "zh"}}, {"uuid": "6bb97c04-f7a2-5d92-8ec3-bb97262dbe47", "name": {"lang": {"jp": "プロプロプロダクション", "en": "propro production", "zh": "propro事务所"}, "default": "jp"}}, {"uuid": "62b750ab-e71a-59cc-b6fe-71a2debb5598", "name": {"lang": {"zh": "upd8"}, "default": "zh"}}, {"uuid": "66e12035-c8a0-5cb1-a5d4-365f89a544d3", "name": {"lang": {"zh": "virtio"}, "default": "zh"}}, {"uuid": "73f553fe-bc06-5b12-be20-44b1190b6237", "name": {"lang": {"zh": "winks"}, "default": "zh"}}, {"uuid": "ee816e2d-0287-51df-b3d9-3c930e3e1474", "name": {"lang": {"zh": "yifun社"}, "default": "zh"}}, {"uuid": "4119dbf4-9390-5a1e-8b90-6734005c8b85", "name": {"lang": {"en": "MaeSond", "zh": "—MSD一"}, "default": "zh"}}, {"uuid": "02e4175f-3781-50e6-85ff-b58ba023732a", "name": {"lang": {"jp": "ますかれーど"}, "default": "jp"}}, {"uuid": "2773e11c-0c30-55f6-93b5-042687c64d38", "name": {"lang": {"zh": "エイレーン一家"}, "default": "zh"}}, {"uuid": "a32f4ed5-ce5c-545f-bc6b-03fa2b3e6a9c", "name": {"lang": {"zh": "三垣四象project"}, "default": "zh"}}, {"uuid": "bf51cd81-7c9c-5e41-adfa-ee617fe0b62d", "name": {"lang": {"zh": "企鹅公馆Penguin"}, "default": "zh"}}, {"uuid": "0fd2499a-5caa-51d0-8946-7d61d5aba18b", "name": {"lang": {"zh": "千鸟战队"}, "default": "zh"}}, {"uuid": "03e5db22-f42b-57a1-b034-48a7f5642d8a", "name": {"lang": {"zh": "和遥树奈Project"}, "default": "zh"}}, {"uuid": "7d17a9d4-bbba-5a8b-b76a-5262cda7d3ae", "name": {"lang": {"zh": "哎咿多工作室"}, "default": "zh"}}, {"uuid": "7ac99c40-0768-5b6b-a402-86a8517197f3", "name": {"lang": {"zh": "哔哩哔哩电竞"}, "default": "zh"}}, {"uuid": "eef5fb94-75dc-532d-82c8-8c6e78457ed9", "name": {"lang": {"zh": "四季神社"}, "default": "zh"}}, {"uuid": "af9df8e4-86e7-5089-ab06-dc8a6e89146c", "name": {"lang": {"zh": "四禧丸子"}, "default": "zh"}}, {"uuid": "820597b7-9f1d-5ad4-83db-66aa8aef89f2", "name": {"lang": {"zh": "夕映结社"}, "default": "zh"}}, {"uuid": "ccba2d70-dee5-5800-a307-b722ebdcdc4f", "name": {"lang": {"zh": "夜空Project"}, "default": "zh"}}, {"uuid": "e0b42ce4-0090-560b-96a1-82d5bc8f7164", "name": {"lang": {"zh": "妖灵project"}, "default": "zh"}}, {"uuid": "cee4f0c6-fb18-53a7-ac1c-7a79fce1a3cb", "name": {"lang": {"zh": "妖精体系FairySystem"}, "default": "zh"}}, {"uuid": "71567c9a-f24f-5829-877c-aad4d77ff08e", "name": {"lang": {"zh": "山海社"}, "default": "zh"}}, {"uuid": "a2dfbe6d-579b-50da-a404-9d80711403d7", "name": {"lang": {"zh": "岄"}, "default": "zh"}}, {"uuid": "61722433-dfba-5899-a5bb-fc9229f1f62f", "name": {"lang": {"zh": "幻home"}, "default": "zh"}}, {"uuid": "81fb6430-675c-5177-9443-8dedd2b96730", "name": {"lang": {"zh": "忘崽牛奶"}, "default": "zh"}}, {"uuid": "8dbd1e05-a7d6-5f57-82f8-92f788450b28", "name": {"lang": {"zh": "悠梦する-女仆咖啡厅"}, "default": "zh"}}, {"uuid": "78fb136a-a601-516b-af0c-2e01cbdbbe8f", "name": {"lang": {"en": "StuMRare", "zh": "撒币社"}, "default": "zh"}}, {"uuid": "b25b6594-eaa6-5b16-a112-c81a853f4815", "name": {"lang": {"zh": "新科动漫"}, "default": "zh"}}, {"uuid": "53ad5ef0-5125-56c0-99c1-8c4352b7afbe", "name": {"lang": {"jp": "梦重力株式会社", "zh": "无次元PROJECT"}, "default": "zh"}}, {"uuid": "fb2c595a-af26-52f1-b433-bf339409d3d4", "name": {"lang": {"zh": "无限殿_Infinite"}, "default": "zh"}}, {"uuid": "68c5984b-6cab-56fa-b8d9-23f45378a877", "name": {"lang": {"zh": "星名社"}, "default": "zh"}}, {"uuid": "6506d485-2cbc-552f-9337-6d4fc2d9b7fd", "name": {"lang": {"jp": "星めぐり学園", "zh": "星巡学园"}, "default": "zh"}}, {"uuid": "ae491a1c-c400-5e88-9eb6-3622c698f8f1", "name": {"lang": {"jp": "星研社プロジェクト", "en": "Hoshisaguri Project", "zh": "星研社project"}, "default": "en"}}, {"uuid": "464d8696-2f1b-55f2-8091-d4b53ae1df4c", "name": {"lang": {"zh": "星野旅社"}, "default": "zh"}}, {"uuid": "7b8e376b-1043-5774-a985-5d57aafc4a16", "name": {"lang": {"zh": "曦和project"}, "default": "zh"}}, {"uuid": "a38c8dc9-5896-5684-b965-e39f9c7e03c7", "name": {"lang": {"zh": "月光社"}, "default": "zh"}}, {"uuid": "63c9e72d-0157-5c80-9f27-0977653100be", "name": {"lang": {"zh": "木南工坊"}, "default": "zh"}}, {"uuid": "9548b50d-dbb9-5b8e-9a4f-a86239ac14ca", "name": {"lang": {"zh": "极光社"}, "default": "zh"}}, {"uuid": "aebb8a27-96ad-575f-99f7-485fb958d709", "name": {"lang": {"zh": "椛榊计划"}, "default": "zh"}}, {"uuid": "eb71d898-f15e-591f-acf0-3d07fe77ccfa", "name": {"lang": {"zh": "樱铃万事屋"}, "default": "zh"}}, {"uuid": "08e83e80-ba92-538d-b63d-fe0592e8af6c", "name": {"lang": {"zh": "浅海Project"}, "default": "zh"}}, {"uuid": "68aaeeda-ab34-5aef-b0fa-511f049ccdfb", "name": {"lang": {"zh": "海洋公馆"}, "default": "zh"}}, {"uuid": "811ad373-4359-562c-add8-3c2492dc209b", "name": {"lang": {"zh": "狄灵计划 Project-D"}, "default": "zh"}}, {"uuid": "a466cec7-5670-59a2-8dd4-66d1a73ad32a", "name": {"lang": {"en": "Maple Silhouette", "zh": "玄月神"}, "default": "zh"}}, {"uuid": "a629223f-5cb6-50df-8d28-5400b4d1c497", "name": {"lang": {"zh": "玹云社"}, "default": "zh"}}, {"uuid": "8b323527-39eb-519a-b7d5-f27a54ea118b", "name": {"lang": {"zh": "白给社"}, "default": "zh"}}, {"uuid": "8e11a33b-c9e1-574f-8300-c8e5aa050010", "name": {"lang": {"jp": "KAMITSUBAKI STUDIO", "zh": "神椿工作室"}, "default": "zh"}}, {"uuid": "9709a2c5-843f-5615-aa16-a2e1d3cca78f", "name": {"lang": {"zh": "神乐组"}, "default": "zh"}}, {"uuid": "4aec98b8-98ce-50a3-8eed-3a5367406293", "name": {"lang": {"zh": "空想岛"}, "default": "zh"}}, {"uuid": "da74be58-904f-586f-99f3-49f26c496892", "name": {"lang": {"zh": "空白社"}, "default": "zh"}}, {"uuid": "e9b10a64-feda-55fe-85d3-a1c5cb48c67d", "name": {"lang": {"zh": "童猫会"}, "default": "zh"}}, {"uuid": "cb8f50eb-2127-5a65-acef-df8ebe3743a4", "name": {"lang": {"zh": "纸片人计划"}, "default": "zh"}}, {"uuid": "f233165c-3a1b-5398-8bee-28da338189fa", "name": {"lang": {"zh": "结缘屋"}, "default": "zh"}}, {"uuid": "e2d2dfda-6dcc-54b4-b213-2b7db8b04a93", "name": {"lang": {"jp": "花寄女子寮", "zh": "花寄女生宿舍"}, "default": "jp"}}, {"uuid": "9149cba3-59e7-5dfe-84a4-4a8d3280de91", "name": {"lang": {"en": "VC社", "zh": "英灵殿ValhallaClub"}, "default": "zh"}}, {"uuid": "d5b4bb11-0b31-5e96-a0e5-5ca27dfebc98", "name": {"lang": {"zh": "草莓王子"}, "default": "zh"}}, {"uuid": "486c63ef-ef29-5ec5-8930-8ccd6dce837b", "name": {"lang": {"zh": "营业十三部"}, "default": "zh"}}, {"uuid": "668fb094-6abc-5d42-affd-411bde41cbdd", "name": {"lang": {"zh": "薯条project"}, "default": "zh"}}, {"uuid": "d7af6703-ed00-53bf-aa46-0d5cf679925b", "name": {"lang": {"zh": "虚研社"}, "default": "zh"}}, {"uuid": "e85f1e0a-82b5-532f-beac-5bff83b7b905", "name": {"lang": {"zh": "蟠桃组"}, "default": "zh"}}, {"uuid": "7ce978ae-b348-57cd-804f-4c5fae6852bd", "name": {"lang": {"zh": "超V学园"}, "default": "zh"}}, {"uuid": "cc64b75a-f000-5b4a-bef3-bc727dab00a2", "name": {"lang": {"zh": "超次元学院"}, "default": "zh"}}, {"uuid": "0720e97e-ca7a-55b7-9944-94d2e090dcd2", "name": {"lang": {"zh": "超电VUP"}, "default": "zh"}}, {"uuid": "779b8800-af13-58ba-a384-bebeed4428c6", "name": {"lang": {"zh": "辉夙星人类文明博物馆"}, "default": "zh"}}, {"uuid": "d6c029ef-8b44-5e59-9e0b-79d4c9884333", "name": {"lang": {"zh": "远星社FarStar"}, "default": "zh"}}, {"uuid": "47ca08ba-9ebb-5ac9-bae9-b0f3b802e97f", "name": {"lang": {"zh": "量子少年Official"}, "default": "zh"}}, {"uuid": "a5a6750b-a591-516f-a261-f1a77f46d4db", "name": {"lang": {"en": "FlashRiceStudio", "zh": "闪米社"}, "default": "zh"}}, {"uuid": "0c0c81b5-fc69-5ee9-a2cb-f77fb303b682", "name": {"lang": {"en": "Rain-Forest-Club", "zh": "雨林社"}, "default": "zh"}}, {"uuid": "231c831c-1e80-5a10-bb8c-b4fa15b861b7", "name": {"lang": {"zh": "雪风军团"}, "default": "zh"}}, {"uuid": "4808e2b0-1892-56db-91d3-872c490c0606", "name": {"lang": {"en": "Fairy zero", "zh": "零式妖精Project"}, "default": "zh"}}, {"uuid": "003983a6-421a-5e75-93e1-841d5c8ee9f2", "name": {"lang": {"zh": "電子妖精"}, "default": "zh"}}, {"uuid": "66ab2857-8a5f-5768-a532-f9a05a6d7572", "name": {"lang": {"zh": "风云社"}, "default": "zh"}}, {"uuid": "0a2ecd85-eecd-5968-9d03-77649d1844a8", "name": {"lang": {"zh": "魂喵Official"}, "default": "zh"}}, {"uuid": "d71b4174-d0c3-5d9d-ac1f-bef92136f290", "name": {"lang": {"zh": "魑魅幻境社"}, "default": "zh"}}, {"uuid": "ac61354d-1b1c-5be1-80e1-b996ea336754", "name": {"lang": {"zh": "鸽鹉live"}, "default": "zh"}}]}
+{
+  "vtbs": [
+    {
+      "uuid": "32799bd2-d46b-558a-8269-619848727016",
+      "name": {
+        "lang": {
+          "zh": "帕比Channel"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "923ede81-d267-5bba-894e-ce9c9b3b14dc",
+      "name": {
+        "lang": {
+          "zh": "龙野铃铃Rinrin"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "5b512c61-7839-594d-8a12-6f45cc372de0",
+      "name": {
+        "lang": {
+          "zh": "freebeats"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "e67fb222-1c4e-5f19-84da-9e8beba2c365"
+    },
+    {
+      "uuid": "4c2906cc-1718-5648-a1cb-f91d63ca424e",
+      "name": {
+        "lang": {
+          "zh": "sekyota_落"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "859ec54b-eb06-5095-8e42-4c9a0aa69800",
+      "name": {
+        "lang": {
+          "zh": "甘乃尸音Amanosion"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "af0eca37-1e9f-578f-bcd6-dc775299a62b",
+      "name": {
+        "lang": {
+          "zh": "有加"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "6a8d2bed-dc2e-5ce1-a3bd-e31317aa4e23"
+    },
+    {
+      "uuid": "848c3acd-6604-5700-863d-e2dd0844b785",
+      "name": {
+        "lang": {
+          "zh": "北瀬琉织"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "8b323527-39eb-519a-b7d5-f27a54ea118b"
+    },
+    {
+      "uuid": "28083fe1-ebcc-512e-b20a-7bbbc691ed90",
+      "name": {
+        "lang": {
+          "zh": "喵鲤Meowli"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "ec28febd-6eaf-549b-95a2-449acdba9b10",
+      "name": {
+        "lang": {
+          "zh": "魔仙女团-小蓝-official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "c82126c9-cb1e-5cf2-9093-7e4527bb909a",
+      "name": {
+        "lang": {
+          "jp": "天羽よつは",
+          "zh": "天羽四叶"
+        },
+        "default": "jp"
+      },
+      "subscribed": false,
+      "group": "f91c8cd6-c548-5ff2-a7de-e7d47d92c851"
+    },
+    {
+      "uuid": "dfbfe7de-00b7-58a4-a3c7-1e830292b6f2",
+      "name": {
+        "lang": {
+          "zh": "安黛莉-米拉Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "73102f48-57f2-5d59-94ef-7aac41e97f65"
+    },
+    {
+      "uuid": "4d0a3315-5c4f-56a9-baa2-6e175fd6eaff",
+      "name": {
+        "lang": {
+          "zh": "啥也不会的几秋"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "8fe9c26c-14dc-58f9-8b0b-956e914af68b",
+      "name": {
+        "lang": {
+          "zh": "御御子_Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "000b4a4f-32ee-555b-92a8-1cb9183073d0",
+      "name": {
+        "lang": {
+          "zh": "せいりゅう-孟章"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "da74be58-904f-586f-99f3-49f26c496892"
+    },
+    {
+      "uuid": "256944e7-d158-5b1a-8a33-462a0f1611d7",
+      "name": {
+        "lang": {
+          "zh": "魔希みちる"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "9a5f53e0-1d1a-52ef-9776-9e57f92cd8a0",
+      "name": {
+        "lang": {
+          "jp": "のらきゃっと"
+        },
+        "default": "jp"
+      },
+      "subscribed": false,
+      "group": "62b750ab-e71a-59cc-b6fe-71a2debb5598"
+    },
+    {
+      "uuid": "cb918f8b-f43f-55ee-ad0f-eee444e635a9",
+      "name": {
+        "lang": {
+          "zh": "霧切澪official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "daa48a2e-57b4-5db4-b440-15604bdd7e68",
+      "name": {
+        "lang": {
+          "zh": "尘阿萧"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "8b323527-39eb-519a-b7d5-f27a54ea118b"
+    },
+    {
+      "uuid": "17f259b3-20d9-50c7-a128-ce03259ff24e",
+      "name": {
+        "lang": {
+          "zh": "一竿风月"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "b397df70-8418-5dc0-94c4-e8973f1316c8"
+    },
+    {
+      "uuid": "e6ebfeef-4349-5d5a-81f5-badb524ade90",
+      "name": {
+        "lang": {
+          "zh": "千鸟战队_文静"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "0fd2499a-5caa-51d0-8946-7d61d5aba18b"
+    },
+    {
+      "uuid": "b41524d6-4019-5079-9ca6-4def0450f551",
+      "name": {
+        "lang": {
+          "zh": "四季侦探团"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "6506d485-2cbc-552f-9337-6d4fc2d9b7fd"
+    },
+    {
+      "uuid": "17e4d699-8e6a-572d-abf1-fa76f2a949b1",
+      "name": {
+        "lang": {
+          "zh": "花嶺_ハナレ"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "b70a59c4-35a1-5c99-9eca-8e727fb63cae",
+      "name": {
+        "lang": {
+          "zh": "春乃喵喵子official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "8d21da50-0e35-5488-8c7e-14527230e29e",
+      "name": {
+        "lang": {
+          "jp": "兎影めう"
+        },
+        "default": "jp"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "aef28228-9d9d-5de6-9eeb-cd8fc5988c47",
+      "name": {
+        "lang": {
+          "zh": "立花遥はるか"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "93b66f77-a3e5-5b88-9249-4401d75d0478",
+      "name": {
+        "lang": {
+          "jp": "白上フブキ",
+          "zh": "白上吹雪"
+        },
+        "default": "jp"
+      },
+      "subscribed": true,
+      "group": "40e82f4e-40d8-539c-87c8-ed17c6ea519f"
+    },
+    {
+      "uuid": "eb31d49f-dee0-5449-a004-80d7393e5a1c",
+      "name": {
+        "lang": {
+          "zh": "Cielo_Raku"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "687001b6-07e6-56b9-b162-4cb6bebfb64d"
+    },
+    {
+      "uuid": "1ad8f24a-a79e-51a1-8ec7-acf925fcdb7a",
+      "name": {
+        "lang": {
+          "zh": "污喵污喵哒"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "25f0db88-325d-5a8b-b8ca-805b7c9df18c",
+      "name": {
+        "lang": {
+          "zh": "稚僮_Rumimi"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "9d0062eb-41de-581d-8b52-983f6817ce97",
+      "name": {
+        "lang": {
+          "zh": "桃园爱momo"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "13570914-a5b2-5ebd-94ff-bffabb925eee",
+      "name": {
+        "lang": {
+          "zh": "莉莉斯official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "a267250b-cfee-5f3c-9f0d-aa4dafe4851c",
+      "name": {
+        "lang": {
+          "zh": "QB"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "aaf747bc-1281-59c3-aa55-dd22903e9adc",
+      "name": {
+        "lang": {
+          "zh": "罗兰-official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "3082b3e2-efad-51ed-8129-48c49e5020b4"
+    },
+    {
+      "uuid": "a773f693-4e59-5f0b-9af7-67beb2516eeb",
+      "name": {
+        "lang": {
+          "zh": "伊戈罗伯"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "341ea148-e8ae-5e59-a4fb-f679c8c665f8",
+      "name": {
+        "lang": {
+          "zh": "ShynnKa_白乔"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "10266374-2142-5e1f-a02f-e38a245b15be",
+      "name": {
+        "lang": {
+          "zh": "妮特_Nito"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "0bc2ee6f-e8e0-5945-907f-b62c3acdcc13",
+      "name": {
+        "lang": {
+          "zh": "天香沫茗_Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "62f12795-7ad0-5203-a5d8-868d4212b1d2",
+      "name": {
+        "lang": {
+          "zh": "亚诺斯Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "6fb3fa4d-5741-5602-b538-0117b8a90348"
+    },
+    {
+      "uuid": "5c3b9783-efa8-5324-818e-47dcce833c13",
+      "name": {
+        "lang": {
+          "zh": "一芽大"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "db0ee4df-8826-507c-8cd4-dbe478f0c0a8"
+    },
+    {
+      "uuid": "8364aa5d-c8f8-5fa6-bf1c-64b46eee7e53",
+      "name": {
+        "lang": {
+          "jp": "鈴木勝",
+          "zh": "铃木胜"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "5da64d9a-b5d2-5f3e-ae3c-35ec6aa42492"
+    },
+    {
+      "uuid": "ce4b7f3f-98fe-505d-8ffd-07a2417da4a1",
+      "name": {
+        "lang": {
+          "jp": "月ノ美兎",
+          "zh": "月之美兔"
+        },
+        "default": "jp"
+      },
+      "subscribed": false,
+      "group": "5da64d9a-b5d2-5f3e-ae3c-35ec6aa42492"
+    },
+    {
+      "uuid": "16fd053d-4c31-5509-a0c8-88742728b544",
+      "name": {
+        "lang": {
+          "zh": "艾奇_Edge"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "e67fb222-1c4e-5f19-84da-9e8beba2c365"
+    },
+    {
+      "uuid": "811d3c98-95cc-5922-8c0d-14fa97e8ec0a",
+      "name": {
+        "lang": {
+          "zh": "星野ニア_愛瑠"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "488658f2-ae65-5df9-aa54-10693821f748",
+      "name": {
+        "lang": {
+          "jp": "真綿アルマ",
+          "zh": "真綿真珠星"
+        },
+        "default": "jp"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "e2f1566a-135a-5202-b82e-93d6baf63eff",
+      "name": {
+        "lang": {
+          "zh": "星·小q"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "bfb11198-5cc3-5b05-ac10-f69dc749831f",
+      "name": {
+        "lang": {
+          "zh": "梅芙洛_mefuro"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "fb2c595a-af26-52f1-b433-bf339409d3d4"
+    },
+    {
+      "uuid": "d4616de0-d684-5f01-97bb-e58de9b655cc",
+      "name": {
+        "lang": {
+          "zh": "瞳凛Torin"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "55d17356-a818-55b7-9366-bf7b8d4aa35a",
+      "name": {
+        "lang": {
+          "zh": "星原凪Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "eb71d898-f15e-591f-acf0-3d07fe77ccfa"
+    },
+    {
+      "uuid": "38734844-25d6-58ab-8b03-42b00399bbb1",
+      "name": {
+        "lang": {
+          "zh": "牧苏"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "a629223f-5cb6-50df-8d28-5400b4d1c497"
+    },
+    {
+      "uuid": "d2df2852-da96-5722-9b4f-995d2b9560eb",
+      "name": {
+        "lang": {
+          "zh": "诺娅Sukie"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "2cf6a579-1919-56c6-8b33-4fd17876e092",
+      "name": {
+        "lang": {
+          "zh": "林莫离_Molly"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "bb1521c3-27b3-5a9d-a428-0a36b6d48f75",
+      "name": {
+        "lang": {
+          "zh": "喵月"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "6a8d2bed-dc2e-5ce1-a3bd-e31317aa4e23"
+    },
+    {
+      "uuid": "fda4482f-2d34-5354-a94c-a83d94d3d53f",
+      "name": {
+        "lang": {
+          "zh": "观月怜"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "0df41876-a5c6-5579-b366-92da122f7e31",
+      "name": {
+        "lang": {
+          "zh": "烟水寒云_Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "a2dfbe6d-579b-50da-a404-9d80711403d7"
+    },
+    {
+      "uuid": "134be371-6177-51f3-811b-4ae81c82b3c4",
+      "name": {
+        "lang": {
+          "jp": "カルロピノ"
+        },
+        "default": "jp"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "3168389a-d6e5-5c7e-a7c1-048a283cdc4f",
+      "name": {
+        "lang": {
+          "zh": "叶晞_Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "585684a9-e6af-512f-9f3e-c6c30ee984ab",
+      "name": {
+        "lang": {
+          "zh": "涅梨Nier"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "6bf15faa-131d-5945-91c5-7f930fa14aec",
+      "name": {
+        "lang": {
+          "zh": "神代盐子"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "8e1baf2f-a703-5ef5-82c1-2f2a19840d7b",
+      "name": {
+        "lang": {
+          "jp": "渋谷ハジメ"
+        },
+        "default": "jp"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "bb097c0c-e7b2-5df7-a139-15c499bfacef",
+      "name": {
+        "lang": {
+          "zh": "毬亚Maria"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "412f3e13-0742-53c3-80e4-a0ea111657d9"
+    },
+    {
+      "uuid": "ecd83acf-0b93-5802-b5c0-82ad15c48c34",
+      "name": {
+        "lang": {
+          "zh": "林不夜侯"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "a629223f-5cb6-50df-8d28-5400b4d1c497"
+    },
+    {
+      "uuid": "3e019b3a-acd7-562f-b8b1-9fb382ef60ef",
+      "name": {
+        "lang": {
+          "zh": "恩缇_Nte"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "3f1e0e6f-8306-582a-970b-bdc5cf5a261b",
+      "name": {
+        "lang": {
+          "zh": "阿莉娅Aliya_"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "cc19c843-a079-541b-9133-4b79f5d47dde",
+      "name": {
+        "lang": {
+          "zh": "陌星之韵_Channel"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "1683c3e4-8c18-52bf-95a1-989ecef65d1d",
+      "name": {
+        "lang": {
+          "zh": "魔法少女初柒"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "f06d5914-1161-5d57-b4c1-0c1fe9812624",
+      "name": {
+        "lang": {
+          "jp": "音琴かなみ",
+          "zh": "音琴かなみ_official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "42a0273c-0047-529b-90fc-750eac0c73f6",
+      "name": {
+        "lang": {
+          "zh": "白璃"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "9fbdaca0-7e23-551b-83ce-22c60b226c51"
+    },
+    {
+      "uuid": "258fda46-42b9-5fd0-aafb-f54d8337eb5e",
+      "name": {
+        "lang": {
+          "zh": "橘柠院"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "a2f24716-ad08-5ecb-8de8-35a6c33564dd",
+      "name": {
+        "lang": {
+          "zh": "影奈音绪"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "faf257d3-81df-564d-b5ae-2d9fd694675c"
+    },
+    {
+      "uuid": "1f2b0982-c2d3-55b3-9f37-29b73f4fdb0c",
+      "name": {
+        "lang": {
+          "jp": "陽夏のの",
+          "zh": "阳夏诺诺"
+        },
+        "default": "jp"
+      },
+      "subscribed": false,
+      "group": "f2fd7bb2-a25a-597e-bf64-9bb35241fccb"
+    },
+    {
+      "uuid": "de45a27d-a0b5-5c32-a222-1fc3af7b1756",
+      "name": {
+        "lang": {
+          "zh": "DrKuronoOfficial"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "f7578ab9-37ff-5b08-a5dc-2c9ba8534c61",
+      "name": {
+        "lang": {
+          "zh": "橘真白"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "5738c8e4-809a-5396-b107-81261d6a3907"
+    },
+    {
+      "uuid": "181ee7dc-59f7-5491-88a8-2062d294e957",
+      "name": {
+        "lang": {
+          "zh": "山城"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "f2206359-f293-5021-9030-fde29ad68bb2"
+    },
+    {
+      "uuid": "b93dc3b9-f5a4-57ea-a99c-b987823cbbd1",
+      "name": {
+        "lang": {
+          "zh": "天羽ちよこ"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "e089d047-a2ae-5fb8-a7fa-c11ca6065616",
+      "name": {
+        "lang": {
+          "jp": "一伊那尓栖",
+          "en": "Ninomae Ina'nis",
+          "zh": "一伊那尓栖"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "d406e5da-ef7d-5e0f-9439-264188944758"
+    },
+    {
+      "uuid": "f0289287-d23c-53c7-8e8c-2d767713cd1f",
+      "name": {
+        "lang": {
+          "zh": "紫齐_Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "ee816e2d-0287-51df-b3d9-3c930e3e1474"
+    },
+    {
+      "uuid": "a77737a0-3072-5875-872f-519430f2ff71",
+      "name": {
+        "lang": {
+          "zh": "米香"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "eeda3fb0-7414-5553-a365-5e2af25f799b",
+      "name": {
+        "lang": {
+          "jp": "竜胆尊",
+          "zh": "龙胆尊"
+        },
+        "default": "jp"
+      },
+      "subscribed": false,
+      "group": "5da64d9a-b5d2-5f3e-ae3c-35ec6aa42492"
+    },
+    {
+      "uuid": "f9b4f0fd-141f-558d-9950-a5957a13823c",
+      "name": {
+        "lang": {
+          "zh": "星野琳奈"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "82d383d4-3c37-5ce1-9891-0287715f0330",
+      "name": {
+        "lang": {
+          "zh": "墨茶Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "3a3d4021-840d-5234-b0cd-558695a7f876",
+      "name": {
+        "lang": {
+          "zh": "辉煌荣耀"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "1808e2a5-c84e-5643-8a73-46f730be48d2",
+      "name": {
+        "lang": {
+          "zh": "泽叶Sawayo"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "8344f00c-6fb0-5bd5-a14b-45a620e4479d"
+    },
+    {
+      "uuid": "8dbe2ebb-0a74-5a26-8bfd-ef905d03dbf8",
+      "name": {
+        "lang": {
+          "zh": "秘密结社黑盾"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "45e95578-fd46-5310-a127-c59b40382b6b",
+      "name": {
+        "lang": {
+          "zh": "西園寺メアリ搬运组"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "15e9ec4b-006f-5bcb-bdd0-8dc56854d6f4"
+    },
+    {
+      "uuid": "5767469c-62d5-50a6-9f4b-695e205686fe",
+      "name": {
+        "lang": {
+          "zh": "白都唯"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "b5312adf-dd9c-50d6-a105-d27beb2035e9",
+      "name": {
+        "lang": {
+          "zh": "早濑弥生Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "2cf477ad-2736-5f75-a855-887c89fde73d",
+      "name": {
+        "lang": {
+          "jp": "桃鈴ねね",
+          "en": "Momosuzu Nene",
+          "zh": "桃铃音音"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "40e82f4e-40d8-539c-87c8-ed17c6ea519f"
+    },
+    {
+      "uuid": "8e09ec71-f466-5ce3-b3b3-65c2a0931ef3",
+      "name": {
+        "lang": {
+          "zh": "兔尤好困w"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "4e06b044-63a4-51b2-b8c5-bdab3a8dde06",
+      "name": {
+        "lang": {
+          "zh": "落樱Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "9149cba3-59e7-5dfe-84a4-4a8d3280de91"
+    },
+    {
+      "uuid": "9d5ab273-75d4-5910-9224-0514d1396de6",
+      "name": {
+        "lang": {
+          "jp": "夏鶴儀",
+          "en": "Natsu Tsurugi",
+          "zh": "夏鹤仪"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "f076e35d-500d-57ba-9149-6caed8275768"
+    },
+    {
+      "uuid": "5c224352-7300-51d8-b54c-9b8a8aeb9f25",
+      "name": {
+        "lang": {
+          "zh": "星月空_official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "e0aed904-72c9-5e10-85a5-7e1afc84daf4",
+      "name": {
+        "lang": {
+          "zh": "芙栗希娅Felicia"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "44b02fb4-573e-5b6e-ac2e-ec3c56528e85",
+      "name": {
+        "lang": {
+          "zh": "もこ田めめめofficial"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "02f5f560-4646-5fcb-ac58-81279c7e2c1e"
+    },
+    {
+      "uuid": "8edbd10c-15af-54af-832b-08492d39fda2",
+      "name": {
+        "lang": {
+          "zh": "巳社しらべOfficial"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "c0e9f559-6658-58b4-bb9b-7ce0a2738ab1",
+      "name": {
+        "lang": {
+          "zh": "陆然-陆知愠Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "206c938e-5510-56db-bb6d-fd8fca68a7a2",
+      "name": {
+        "lang": {
+          "zh": "傲丙初Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "177064cd-f3ce-534e-b066-14123ddcee2f",
+      "name": {
+        "lang": {
+          "zh": "ふたもちやまいOfficial"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "9afbc338-b7f6-5fa2-ab88-4762d8ad2fa7"
+    },
+    {
+      "uuid": "ebc4f15b-d431-572d-936d-b938abe50b46",
+      "name": {
+        "lang": {
+          "zh": "わかさーん"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "f92a2155-f10d-5567-acff-7a7267ae9d96",
+      "name": {
+        "lang": {
+          "zh": "千羽黑乃official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "93f88179-7770-5730-ac6f-647ac485ac8d",
+      "name": {
+        "lang": {
+          "en": "te'resa",
+          "zh": "特雷莎"
+        },
+        "default": "en"
+      },
+      "subscribed": true,
+      "group": "8e11a33b-c9e1-574f-8300-c8e5aa050010"
+    },
+    {
+      "uuid": "3d8c7ea9-e7be-58a5-86d0-6da7eb815db4",
+      "name": {
+        "lang": {
+          "zh": "驿双Ethan_Channel"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "7dca71c6-bfdb-54b3-b730-ce273928c7d5"
+    },
+    {
+      "uuid": "08e514da-1504-50eb-b331-ec3675a839d5",
+      "name": {
+        "lang": {
+          "jp": "藤咲ミア",
+          "zh": "藤咲mia"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "2c6f93af-5c93-5696-8bd1-47ce0e967388",
+      "name": {
+        "lang": {
+          "zh": "白白_Anlessya"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "2a8fa0c3-aee1-5824-a934-687f003e0c37",
+      "name": {
+        "lang": {
+          "zh": "残夜暗杀_Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "d92eab98-0ae5-5312-b55f-110c24e74f1f",
+      "name": {
+        "lang": {
+          "zh": "娜娜米Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "ae491a1c-c400-5e88-9eb6-3622c698f8f1"
+    },
+    {
+      "uuid": "7d8a2fb5-aea6-5ebf-a5be-7fa39ff51df1",
+      "name": {
+        "lang": {
+          "jp": "来栖らいあ",
+          "en": "Kurusu Raia"
+        },
+        "default": "jp"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "e45acb16-96c1-5400-a4bd-9547e87a5d74",
+      "name": {
+        "lang": {
+          "zh": "霜空Neco"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "dbc38bd5-ca03-5282-ac84-e87f82dfb421",
+      "name": {
+        "lang": {
+          "jp": "日向にゃみ"
+        },
+        "default": "jp"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "dbcc8e82-66c3-5547-b9ad-5e2d80f57a34",
+      "name": {
+        "lang": {
+          "zh": "初音未来LStype"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "fb556b49-888f-5e19-860a-5533e30301ca",
+      "name": {
+        "lang": {
+          "zh": "欧翼_official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "bfbf710c-1cbf-5d13-96c8-c6f468b054c6",
+      "name": {
+        "lang": {
+          "zh": "沙华Candy"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "52c01b6d-ba1f-5c29-887a-e776de4a3c60",
+      "name": {
+        "lang": {
+          "zh": "萌流Mofuu"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "35cfd08d-c723-539d-b423-00ea8b6832ea",
+      "name": {
+        "lang": {
+          "en": "Ventrue",
+          "zh": "梵卓"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "84d987b4-2a25-5bcb-80f1-d45495ee3f43",
+      "name": {
+        "lang": {
+          "zh": "佚夜iya"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "277aa1f8-ebf7-5d6c-b6f3-dfecfdfd44c2"
+    },
+    {
+      "uuid": "b98c17da-369b-5dc2-b80b-60a83f6958fd",
+      "name": {
+        "lang": {
+          "zh": "月咏伢Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "eb71d898-f15e-591f-acf0-3d07fe77ccfa"
+    },
+    {
+      "uuid": "771969d3-b61d-561d-a119-de179514577e",
+      "name": {
+        "lang": {
+          "zh": "咲间妮娜Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "412f3e13-0742-53c3-80e4-a0ea111657d9"
+    },
+    {
+      "uuid": "e46d19b7-9ec0-5d48-9f9b-b98b20bcac71",
+      "name": {
+        "lang": {
+          "zh": "星雨透_Channel"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "e8e27c90-1381-569a-9cb6-26a3e9abe21b",
+      "name": {
+        "lang": {
+          "zh": "勀宝_Chocolate"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "714da86b-3d4d-5b76-b2f3-e14396069440",
+      "name": {
+        "lang": {
+          "zh": "胡桃いく"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "e2834ba7-db5e-5adf-ab63-bfff2971a217",
+      "name": {
+        "lang": {
+          "zh": "步玎Pudding"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "f076e35d-500d-57ba-9149-6caed8275768"
+    },
+    {
+      "uuid": "fa493b37-fbd9-5498-97d4-c85149aba86d",
+      "name": {
+        "lang": {
+          "zh": "蕉灼_Channel"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "e85f1e0a-82b5-532f-beac-5bff83b7b905"
+    },
+    {
+      "uuid": "623dda9a-5c55-59ad-bf45-e70d5dbf6a12",
+      "name": {
+        "lang": {
+          "zh": "千時静"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "0a7ccefa-fb4f-53ee-8010-9a62823d9781"
+    },
+    {
+      "uuid": "7ebf19df-5ab4-5137-81c8-65d330ef13d2",
+      "name": {
+        "lang": {
+          "zh": "桃川久美_Kumi"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "e57817d1-bfd2-5392-90b0-7a66e32c05d8",
+      "name": {
+        "lang": {
+          "jp": "Akane",
+          "zh": "赤音"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "ee2d6579-f7b2-59e4-be05-ca88f4bdff7d"
+    },
+    {
+      "uuid": "8989aa39-b094-5a37-b185-dd52c81a5d83",
+      "name": {
+        "lang": {
+          "jp": "天衣ゆめ"
+        },
+        "default": "jp"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "19e4ef43-6a9d-5ff5-b79b-d59e8c98d19e",
+      "name": {
+        "lang": {
+          "jp": "米プリンセス",
+          "en": "MaiPrincess"
+        },
+        "default": "en"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "5a2e91f1-c7fc-5bb1-9285-b9c57c4159f1",
+      "name": {
+        "lang": {
+          "zh": "雷米尔Remiel"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "399144f9-1d16-5e19-828e-8c89afdc5711",
+      "name": {
+        "lang": {
+          "jp": "ケリン",
+          "en": "Kerin"
+        },
+        "default": "jp"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "65fbf80a-6f51-5c16-97cb-5b57be8109ec",
+      "name": {
+        "lang": {
+          "zh": "南小棉_みちゃん"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "e67fb222-1c4e-5f19-84da-9e8beba2c365"
+    },
+    {
+      "uuid": "10cd2946-0b56-501d-b60a-64ef0d7cb273",
+      "name": {
+        "lang": {
+          "en": "Maria",
+          "zh": "木易"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "d2a9649f-1651-5fb2-bf95-445812e2134f",
+      "name": {
+        "lang": {
+          "zh": "塩田伊緖Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "c316ca45-284f-58f0-a8d2-bec83f5f2241",
+      "name": {
+        "lang": {
+          "zh": "打酱油的魔神_Channel"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "4dc5767b-16ce-57aa-87fa-e5c2600900f2",
+      "name": {
+        "lang": {
+          "zh": "温之九Dolores"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "277aa1f8-ebf7-5d6c-b6f3-dfecfdfd44c2"
+    },
+    {
+      "uuid": "0ab57f16-439d-56c2-a875-d4ce9d93a731",
+      "name": {
+        "lang": {
+          "zh": "白一鸢_Channel"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "687001b6-07e6-56b9-b162-4cb6bebfb64d"
+    },
+    {
+      "uuid": "95f9fe82-b240-58eb-a5b6-1ca974634d5b",
+      "name": {
+        "lang": {
+          "zh": "咸鱼味的米粉儿"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "f4a24053-461d-5e93-8e01-987437d1a8aa",
+      "name": {
+        "lang": {
+          "zh": "三川咲"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "7666a10c-b134-57b4-8d4c-9b6e24082567",
+      "name": {
+        "lang": {
+          "zh": "暴食Hunger"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "6a8d2bed-dc2e-5ce1-a3bd-e31317aa4e23"
+    },
+    {
+      "uuid": "3d306c79-34e4-56d2-b708-1e4f0f23875a",
+      "name": {
+        "lang": {
+          "en": "Lynn",
+          "zh": "林玲"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "7ce978ae-b348-57cd-804f-4c5fae6852bd"
+    },
+    {
+      "uuid": "cb0ae042-c532-5d44-b81f-1275107fe787",
+      "name": {
+        "lang": {
+          "jp": "三雲",
+          "zh": "三云"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "93b955c3-3112-5184-9ef5-a5377ac27d99",
+      "name": {
+        "lang": {
+          "zh": "墨喵星突突母舰Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": false
+    },
+    {
+      "uuid": "7ba80e8f-7674-5d52-b3ea-e74bd51e15be",
+      "name": {
+        "lang": {
+          "zh": "帕洛特"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "8d3239cd-4811-570e-a968-7c582e46ead0"
+    },
+    {
+      "uuid": "c0eff4bb-5f6b-50aa-a125-cd13d438383f",
+      "name": {
+        "lang": {
+          "zh": "庞小莹"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "8d3239cd-4811-570e-a968-7c582e46ead0"
+    },
+    {
+      "uuid": "bfb11c8f-b5f6-5e7b-8d11-9611ac9193bc",
+      "name": {
+        "lang": {
+          "zh": "川崎桐切Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "8e15f8d9-4255-5168-8953-9c4851ce9048",
+      "name": {
+        "lang": {
+          "zh": "玛琳璱Official"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "e83faab4-9522-5839-b9aa-4b69d83c68e2",
+      "name": {
+        "lang": {
+          "zh": "カルロ・ピノofficial"
+        },
+        "default": "zh"
+      },
+      "subscribed": false,
+      "group": "02f5f560-4646-5fcb-ac58-81279c7e2c1e"
+    },
+    {
+      "uuid": "7badb88f-871d-5acf-8e67-d89cf7b753a0",
+      "name": {
+        "lang": {
+          "zh": "是花小曦"
+        },
+        "default": "zh"
+      },
+      "subscribed": true,
+      "group": "0c0c81b5-fc69-5ee9-a2cb-f77fb303b682"
+    },
+    {
+      "uuid": "88be70b5-1ed6-5af6-bda5-8f7752eafd06",
+      "name": {
+        "lang": {
+          "zh": "PochiKorone"
+        },
+        "default": "zh"
+      },
+      "subscribed": true
+    },
+    {
+      "uuid": "3773fa88-e2a6-5eb4-a4f6-0399873d66ab",
+      "name": {
+        "lang": {
+          "kr": "天使猫Parfaitty"
+        },
+        "default": "kr"
+      },
+      "subscribed": false
+    }
+  ],
+  "groups": [
+    {
+      "uuid": "02f5f560-4646-5fcb-ac58-81279c7e2c1e",
+      "name": {
+        "lang": {
+          "zh": ".Live"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "15e9ec4b-006f-5bcb-bdd0-8dc56854d6f4",
+      "name": {
+        "lang": {
+          "zh": "774 inc"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a0ee759e-2876-5954-a8fd-fb8bf8db84d2",
+      "name": {
+        "lang": {
+          "zh": "A-SOUL"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "5c3f4d98-1348-52e0-8a14-832879275933",
+      "name": {
+        "lang": {
+          "zh": "ACGN Project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "22c2893d-8037-5243-9944-40b33731673e",
+      "name": {
+        "lang": {
+          "zh": "ADTB社团"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "9d2dee5d-4e1d-5faa-8398-7e769bb0a7cc",
+      "name": {
+        "lang": {
+          "jp": "ALIVE MUSIX"
+        },
+        "default": "jp"
+      }
+    },
+    {
+      "uuid": "4feeb7e5-cdef-5d2b-bd57-17600127ee14",
+      "name": {
+        "lang": {
+          "zh": "ARTs学院"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a7372824-0ebf-5683-b7a3-550ab1c13f80",
+      "name": {
+        "lang": {
+          "zh": "AVP古流社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a2f8bb9b-1b8c-5784-a887-be736c63355f",
+      "name": {
+        "lang": {
+          "zh": "Acc加速社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "fa86cc75-0288-55e4-a6f9-e1c4134a8ec0",
+      "name": {
+        "lang": {
+          "en": "Afutech"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "dea65e99-8859-5f68-a768-6898e68bb666",
+      "name": {
+        "lang": {
+          "en": "Aien"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "8344f00c-6fb0-5bd5-a14b-45a620e4479d",
+      "name": {
+        "lang": {
+          "en": "AliceHeart"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "6e454c59-bb29-591d-b70b-b18b44d2a8e5",
+      "name": {
+        "lang": {
+          "en": "And2girls"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "4fb34397-207d-5ab7-babc-4217358edcd1",
+      "name": {
+        "lang": {
+          "zh": "Another Project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "0f902cbd-31df-53cd-8f5e-a61e02097a25",
+      "name": {
+        "lang": {
+          "zh": "Antinomy13"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a4f5b5e7-009f-5164-abb8-e2bc4e580086",
+      "name": {
+        "lang": {
+          "zh": "Aurora"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "fe322361-ebad-52de-8494-089e3205892b",
+      "name": {
+        "lang": {
+          "en": "Avis"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "c9d461d8-ada6-5bb4-a347-42d6a30813e0",
+      "name": {
+        "lang": {
+          "zh": "CASA"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "b6c4b873-8000-5178-a76e-4c47aef07d6e",
+      "name": {
+        "lang": {
+          "zh": "CommonEra"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "934f32b5-19fa-515d-ac7a-b4c95d8774cb",
+      "name": {
+        "lang": {
+          "zh": "CatsChainReaction链式猫"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "e67fb222-1c4e-5f19-84da-9e8beba2c365",
+      "name": {
+        "lang": {
+          "zh": "ChaosLive·Sprout"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "dc1aefce-ccce-5bdb-8170-e871ffaefbd6",
+      "name": {
+        "lang": {
+          "zh": "Chobits-live"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "95596f4b-a413-5afe-a0f9-35c596f4543d",
+      "name": {
+        "lang": {
+          "zh": "Citrus柑橘社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "b29095e6-c178-5900-871c-349e426ad495",
+      "name": {
+        "lang": {
+          "en": "CloudConnecting"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "48bf8c2f-59f0-594f-bb5d-0172fce17507",
+      "name": {
+        "lang": {
+          "zh": "Code378"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "aff6a844-e15a-5322-b6cd-4d07df0475b3",
+      "name": {
+        "lang": {
+          "zh": "CodeEcho"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "4af017fc-2b52-56ed-8ba9-b7e3e11dba56",
+      "name": {
+        "lang": {
+          "jp": "cocolive",
+          "zh": "Creator_Coffee_P"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "af7d8e20-2164-5373-a4b1-9a31c085fb7b",
+      "name": {
+        "lang": {
+          "zh": "Croven教团"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "78f9c877-f18b-5e6e-8747-48193f5850b8",
+      "name": {
+        "lang": {
+          "zh": "DR梦境社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "64d3ad41-44fa-5124-8134-c06087f69f5f",
+      "name": {
+        "lang": {
+          "zh": "DUSTLIVE微尘计划"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "8ddf8a4d-c59b-51fc-a7b5-1b12d46e96f0",
+      "name": {
+        "lang": {
+          "zh": "Diphylia"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "158ce246-eb9b-57cd-99c1-dc8517d814bc",
+      "name": {
+        "lang": {
+          "zh": "Double_project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "f2206359-f293-5021-9030-fde29ad68bb2",
+      "name": {
+        "lang": {
+          "en": "DreamHorizon"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "70a6e7b1-b146-5470-a186-39085c45c7ad",
+      "name": {
+        "lang": {
+          "en": "DuckDriver"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "ee2d6579-f7b2-59e4-be05-ca88f4bdff7d",
+      "name": {
+        "lang": {
+          "zh": "EGOLIVE"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "4fe7c38e-751f-58dc-9b27-c2559af94c22",
+      "name": {
+        "lang": {
+          "en": "ENIAC"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "3082b3e2-efad-51ed-8129-48c49e5020b4",
+      "name": {
+        "lang": {
+          "zh": "EraVerses"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "ef62fd18-c22b-5457-9453-48819f385b8f",
+      "name": {
+        "lang": {
+          "zh": "EroS"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "621939ef-f164-5a7c-bd19-aadbe9679b01",
+      "name": {
+        "lang": {
+          "zh": "Facemoe官方"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "d0bc1877-9a3d-5c32-987e-e4d4ac15a3a0",
+      "name": {
+        "lang": {
+          "zh": "Ferret女学院"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "de5c38bf-6baa-557a-ab50-70021dfd22b1",
+      "name": {
+        "lang": {
+          "en": "FiestaLand"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "dbb92931-4f6d-52df-b21b-a2ad11fc251e",
+      "name": {
+        "lang": {
+          "en": "Function"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "3eec40df-4d0f-5776-b695-8ef7e1f3fa74",
+      "name": {
+        "lang": {
+          "zh": "Future Land"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "62f90b65-e8cd-54b1-bae2-ed0fc47d063c",
+      "name": {
+        "lang": {
+          "zh": "GEMS_COMPANY官方"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "fb6c271a-b8c6-59cf-aaa2-c9d57e8d401a",
+      "name": {
+        "lang": {
+          "zh": "Gliese"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "6d396a6b-d04b-5b93-808d-f05729aa721a",
+      "name": {
+        "lang": {
+          "zh": "Gn-Gg社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "d406e5da-ef7d-5e0f-9439-264188944758",
+      "name": {
+        "lang": {
+          "zh": "Hololive EN"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "40e82f4e-40d8-539c-87c8-ed17c6ea519f",
+      "name": {
+        "lang": {
+          "jp": "ホロライブ公式",
+          "en": "Hololive"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "98d092b6-00c1-5728-ac4b-6ace0d407d57",
+      "name": {
+        "lang": {
+          "zh": "IPG联合"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "9afbc338-b7f6-5fa2-ab88-4762d8ad2fa7",
+      "name": {
+        "lang": {
+          "en": "IPwork",
+          "zh": "IP社"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "88c223e0-cbda-5829-852c-f272142fec71",
+      "name": {
+        "lang": {
+          "zh": "KC club"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "7dca71c6-bfdb-54b3-b730-ce273928c7d5",
+      "name": {
+        "lang": {
+          "jp": "KonKoe"
+        },
+        "default": "jp"
+      }
+    },
+    {
+      "uuid": "db0ee4df-8826-507c-8cd4-dbe478f0c0a8",
+      "name": {
+        "lang": {
+          "en": "LBG"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "a55e1daa-b902-5dcd-8447-85ed6609b1b5",
+      "name": {
+        "lang": {
+          "zh": "LepusLive"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "f2fd7bb2-a25a-597e-bf64-9bb35241fccb",
+      "name": {
+        "lang": {
+          "en": "LiveCartoon"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "5e38bdf6-be61-55df-9c48-45bf6220dda3",
+      "name": {
+        "lang": {
+          "en": "Lounge_LUTUBO",
+          "zh": "Lounge_LUTUBO"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "448c9cb0-32d9-554e-9da8-b47f0e26ffed",
+      "name": {
+        "lang": {
+          "zh": "虚拟主播社团PRO-Lucain"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "5738c8e4-809a-5396-b107-81261d6a3907",
+      "name": {
+        "lang": {
+          "en": "Lucca"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "42dffa71-00ea-5f6b-8c4f-5f78134ed38e",
+      "name": {
+        "lang": {
+          "zh": "LupinusVG公式"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "bf876843-cb50-5386-af32-4094a74ee86c",
+      "name": {
+        "lang": {
+          "zh": "MCP-沐云计划"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "8d3239cd-4811-570e-a968-7c582e46ead0",
+      "name": {
+        "lang": {
+          "zh": "MZ次元"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "25792bc0-6d62-50b1-8089-cb1ec922b5a8",
+      "name": {
+        "lang": {
+          "en": "Makuroka"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "e7c5c642-480d-5f15-81a4-66cefd3975e0",
+      "name": {
+        "lang": {
+          "zh": "MarbleCreators"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "8ab1de5c-4685-579a-8a96-b85c83636906",
+      "name": {
+        "lang": {
+          "zh": "MeUmyShelf"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "da920113-15d7-5094-8475-71c887d37f0d",
+      "name": {
+        "lang": {
+          "zh": "Miracle-Link"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "89382922-bb93-5a94-94b6-06f217575139",
+      "name": {
+        "lang": {
+          "zh": "Mlik Cat 奶猫协会"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "9934d233-a130-5459-8554-ecc7234d2891",
+      "name": {
+        "lang": {
+          "en": "MochiPro"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "1c22567f-c174-5e1c-b4d4-78389bf39d09",
+      "name": {
+        "lang": {
+          "jp": "MofuMofu Fantasista"
+        },
+        "default": "jp"
+      }
+    },
+    {
+      "uuid": "b5e56b02-c1f5-5c5b-85d3-870a392d3d8a",
+      "name": {
+        "lang": {
+          "zh": "NEBULA"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "98f1964b-de8a-586b-bb1a-6a3de476727d",
+      "name": {
+        "lang": {
+          "en": "NGWORKS"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "5da64d9a-b5d2-5f3e-ae3c-35ec6aa42492",
+      "name": {
+        "lang": {
+          "zh": "NIJISANJI"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "0a7ccefa-fb4f-53ee-8010-9a62823d9781",
+      "name": {
+        "lang": {
+          "en": "Nameless Project"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "687001b6-07e6-56b9-b162-4cb6bebfb64d",
+      "name": {
+        "lang": {
+          "en": "Nature"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "60c77bfe-cd1e-5717-9b0f-152bc5f9a27e",
+      "name": {
+        "lang": {
+          "en": "Nebula-Beat​",
+          "zh": "星律动"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "6203f877-a1f8-5c61-99bb-ed20fd02ffef",
+      "name": {
+        "lang": {
+          "zh": "No.6 Channel"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "5ca43bb4-d060-578e-a040-2d924bab8fb1",
+      "name": {
+        "lang": {
+          "zh": "NoriPro"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "ce23afd2-6f1a-5106-b1d6-09980187f549",
+      "name": {
+        "lang": {
+          "en": "Normalization Project"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "d3d6111b-0610-57fd-af15-f0569ea0ba0a",
+      "name": {
+        "lang": {
+          "zh": "NornsProject"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "e0f09763-4407-5035-b58c-d6750e6c140f",
+      "name": {
+        "lang": {
+          "en": "P-Hephaestus"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "f076e35d-500d-57ba-9149-6caed8275768",
+      "name": {
+        "lang": {
+          "en": "P-SP"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "9fbdaca0-7e23-551b-83ce-22c60b226c51",
+      "name": {
+        "lang": {
+          "zh": "PKS-Official"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "5280227e-7149-51ad-a929-cc2da6852f64",
+      "name": {
+        "lang": {
+          "zh": "POPCORNER官方"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "f0f8d8bd-54fa-56cc-ac3a-ee0466f314d5",
+      "name": {
+        "lang": {
+          "zh": "PaimonHell"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "d0827515-9a79-5e6a-b445-b1145bacfea4",
+      "name": {
+        "lang": {
+          "zh": "Palette"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "25dcec92-82e4-5a70-a909-35e86afd2069",
+      "name": {
+        "lang": {
+          "en": "Perciva",
+          "zh": "珀西瓦"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "2bcc8411-8cc7-5304-a564-fa7a0acb1766",
+      "name": {
+        "lang": {
+          "zh": "PlutoCharon"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "ccfa8b1f-4bae-50a0-9252-21c47c901240",
+      "name": {
+        "lang": {
+          "en": "Project Cyto"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "03f37d42-8b64-5cc2-aaa0-ac334aca9a56",
+      "name": {
+        "lang": {
+          "zh": "Project Lupinus"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "303f0327-99b2-5643-bbb6-23c48d2a613a",
+      "name": {
+        "lang": {
+          "en": "Project OvO"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "fdb3ee6d-3a2e-5bfb-b724-aeb9b223de69",
+      "name": {
+        "lang": {
+          "zh": "ProjectViberglow"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "538f9a43-553b-521e-b3b9-8199d5840382",
+      "name": {
+        "lang": {
+          "zh": "Project_NyaRi"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "9397afca-d6a2-5519-986d-dca40a94f813",
+      "name": {
+        "lang": {
+          "en": "Prototidron"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "412f3e13-0742-53c3-80e4-a0ea111657d9",
+      "name": {
+        "lang": {
+          "en": "Providence",
+          "zh": "普罗维登"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "a5f67427-dbfe-5cb0-be05-ef701454c3aa",
+      "name": {
+        "lang": {
+          "zh": "P家"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "987f6e87-c3ef-5c17-8079-5dfdab027074",
+      "name": {
+        "lang": {
+          "zh": "REDCircle红圈社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "237a4185-0f24-5da0-b270-a259328e744d",
+      "name": {
+        "lang": {
+          "zh": "RantitogaProject"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "7160ffcb-737e-5a07-b9c1-f130ff46cbee",
+      "name": {
+        "lang": {
+          "en": "Re.Eden伊甸园"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "6696f9f6-e159-5fa0-882a-1b1213a68556",
+      "name": {
+        "lang": {
+          "zh": "Re:AcT"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "83e3c722-dd6d-5c51-a5cc-92d5ee4dcb9f",
+      "name": {
+        "lang": {
+          "en": "SOW"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "0e2e2085-33c6-5205-a9e2-81702f20a7b0",
+      "name": {
+        "lang": {
+          "en": "SSR",
+          "zh": "星露社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "8191e3b1-9045-5b06-91cf-8f08baf0fde6",
+      "name": {
+        "lang": {
+          "jp": "StarryNight"
+        },
+        "default": "jp"
+      }
+    },
+    {
+      "uuid": "2a539dd2-fb7d-578c-8730-153bb8874a62",
+      "name": {
+        "lang": {
+          "zh": "StarrySky战姬学院"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "cd523351-a878-58fa-a097-0e6217b2ce5d",
+      "name": {
+        "lang": {
+          "zh": "TTTeam"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "d4d3135b-dd1c-57e2-9122-a249c97d40e7",
+      "name": {
+        "lang": {
+          "zh": "TheVirkyrie"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "e2e54677-6608-5996-9976-464cfd4ed739",
+      "name": {
+        "lang": {
+          "en": "Tinsgoo-Project",
+          "zh": "听世"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "093738a6-1f21-5910-86d3-2a00c029afd6",
+      "name": {
+        "lang": {
+          "zh": "Tourist-V"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "63ddd5e3-d91b-5c18-8818-dd849b0a9436",
+      "name": {
+        "lang": {
+          "zh": "UV社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "4bb946b7-6b9d-5b28-8975-f23291cba191",
+      "name": {
+        "lang": {
+          "jp": "ゆにクリエイト",
+          "en": "Unicreate"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "70a4cc30-079d-5e45-9d46-84c6194eb0c6",
+      "name": {
+        "lang": {
+          "zh": "Unlimited"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "0b7d637d-0ea2-5381-b0ea-81bcff5f13ad",
+      "name": {
+        "lang": {
+          "zh": "V-dol事务所"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "f91c8cd6-c548-5ff2-a7de-e7d47d92c851",
+      "name": {
+        "lang": {
+          "en": "VGaming"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "44ffc461-168b-56f3-9458-0f450b0b36a2",
+      "name": {
+        "lang": {
+          "zh": "VIC"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a9c452b8-faba-53d1-92ad-83337135e2c3",
+      "name": {
+        "lang": {
+          "zh": "VOMNIS"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "2cfbce43-39bb-5ab8-9c20-f6b59bbbce7f",
+      "name": {
+        "lang": {
+          "zh": "VTNeko"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "30f0a6c7-e49d-56b9-8dd9-60bf6539212b",
+      "name": {
+        "lang": {
+          "en": "Virtual Genesis"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "faf257d3-81df-564d-b5ae-2d9fd694675c",
+      "name": {
+        "lang": {
+          "jp": "Virtual Dove鸽舍",
+          "en": "Vi-D鸽舍"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "e0c583c9-7625-53bd-84c1-5cca0c419a7b",
+      "name": {
+        "lang": {
+          "en": "ViViD"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "7bf7dc58-48f6-55cd-8bdb-cf5fa31d8a77",
+      "name": {
+        "lang": {
+          "zh": "Vidol工作室"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "277aa1f8-ebf7-5d6c-b6f3-dfecfdfd44c2",
+      "name": {
+        "lang": {
+          "zh": "VirloProject"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "227ed47e-4565-5692-b1cc-154463a73773",
+      "name": {
+        "lang": {
+          "zh": "Virtopia"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "6a8d2bed-dc2e-5ce1-a3bd-e31317aa4e23",
+      "name": {
+        "lang": {
+          "zh": "VirtuaReal"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "335986d3-a35c-5a0d-98a7-7891d9f33956",
+      "name": {
+        "lang": {
+          "zh": "VirtualConcept"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "b397df70-8418-5dc0-94c4-e8973f1316c8",
+      "name": {
+        "lang": {
+          "zh": "VirtualToolUp"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "9abdd959-092b-59ab-aa0e-c4a8a310094a",
+      "name": {
+        "lang": {
+          "jp": "Virtual放送部"
+        },
+        "default": "jp"
+      }
+    },
+    {
+      "uuid": "33d285f2-b9a8-595d-a282-4a341ab9d020",
+      "name": {
+        "lang": {
+          "zh": "Vnicorn"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "682089de-7fe5-5303-8939-37eeab633407",
+      "name": {
+        "lang": {
+          "zh": "WACTOR-女仆酱"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "e9965fab-5b00-5636-bc6c-31bee0a537af",
+      "name": {
+        "lang": {
+          "zh": "WFIE"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "5e67c1b9-17c7-5e1a-872d-d72ddf615f99",
+      "name": {
+        "lang": {
+          "zh": "WeHato官方"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "f0f6db36-c594-50bd-ae6a-5032878a8ce6",
+      "name": {
+        "lang": {
+          "en": "Wenthernten",
+          "zh": "温瑟藤"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "f49e8e3e-0dc9-5125-81c6-5c8d6c497f94",
+      "name": {
+        "lang": {
+          "zh": "WonIDOLand虚拟社团"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "f4d991d0-7877-5221-aa85-d05f92d404f3",
+      "name": {
+        "lang": {
+          "zh": "YahooTV"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "5b24d707-9143-5dbe-8e3c-c38405545e77",
+      "name": {
+        "lang": {
+          "zh": "ZEROproject"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "6fb3fa4d-5741-5602-b538-0117b8a90348",
+      "name": {
+        "lang": {
+          "zh": "airΛtom"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "f6394251-a0f4-52dd-ba22-4089f60c3d3d",
+      "name": {
+        "lang": {
+          "zh": "cafelive"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a7359b76-4ce6-552e-8a2a-31224a4dd542",
+      "name": {
+        "lang": {
+          "en": "cesirelive"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "7d14580b-8154-5fdb-9777-b1032d302bfe",
+      "name": {
+        "lang": {
+          "en": "chaoslive"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "ad652370-a736-537f-aa70-6ee528138364",
+      "name": {
+        "lang": {
+          "zh": "chucolala"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "e99f3b51-c9e1-5b68-893f-aa6394d3af86",
+      "name": {
+        "lang": {
+          "jp": "えもえちプロダクション"
+        },
+        "default": "jp"
+      }
+    },
+    {
+      "uuid": "9c1b1391-c421-5f8d-ad1d-90eefee8d3e1",
+      "name": {
+        "lang": {
+          "en": "holostars"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "ea46c33c-8689-5b71-a388-7e2e7e788a36",
+      "name": {
+        "lang": {
+          "en": "inkschool",
+          "zh": "墨水学院"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "73102f48-57f2-5d59-94ef-7aac41e97f65",
+      "name": {
+        "lang": {
+          "zh": "kanae"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "c3de0c58-3df0-5a4f-8224-7297a64c95ce",
+      "name": {
+        "lang": {
+          "zh": "kenlos"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "726d2323-bba0-50fa-af4b-92b9f5b6578c",
+      "name": {
+        "lang": {
+          "en": "KingdomKnight"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "037feda8-c790-5eed-b42e-3bcf55efdba9",
+      "name": {
+        "lang": {
+          "zh": "nene酱捉梦社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "6bb97c04-f7a2-5d92-8ec3-bb97262dbe47",
+      "name": {
+        "lang": {
+          "jp": "プロプロプロダクション",
+          "en": "propro production",
+          "zh": "propro事务所"
+        },
+        "default": "jp"
+      }
+    },
+    {
+      "uuid": "62b750ab-e71a-59cc-b6fe-71a2debb5598",
+      "name": {
+        "lang": {
+          "zh": "upd8"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "66e12035-c8a0-5cb1-a5d4-365f89a544d3",
+      "name": {
+        "lang": {
+          "zh": "virtio"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "73f553fe-bc06-5b12-be20-44b1190b6237",
+      "name": {
+        "lang": {
+          "zh": "winks"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "ee816e2d-0287-51df-b3d9-3c930e3e1474",
+      "name": {
+        "lang": {
+          "zh": "yifun社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "4119dbf4-9390-5a1e-8b90-6734005c8b85",
+      "name": {
+        "lang": {
+          "en": "MaeSond",
+          "zh": "—MSD一"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "02e4175f-3781-50e6-85ff-b58ba023732a",
+      "name": {
+        "lang": {
+          "jp": "ますかれーど"
+        },
+        "default": "jp"
+      }
+    },
+    {
+      "uuid": "2773e11c-0c30-55f6-93b5-042687c64d38",
+      "name": {
+        "lang": {
+          "zh": "エイレーン一家"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a32f4ed5-ce5c-545f-bc6b-03fa2b3e6a9c",
+      "name": {
+        "lang": {
+          "zh": "三垣四象project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "bf51cd81-7c9c-5e41-adfa-ee617fe0b62d",
+      "name": {
+        "lang": {
+          "zh": "企鹅公馆Penguin"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "0fd2499a-5caa-51d0-8946-7d61d5aba18b",
+      "name": {
+        "lang": {
+          "zh": "千鸟战队"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "03e5db22-f42b-57a1-b034-48a7f5642d8a",
+      "name": {
+        "lang": {
+          "zh": "和遥树奈Project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "7d17a9d4-bbba-5a8b-b76a-5262cda7d3ae",
+      "name": {
+        "lang": {
+          "zh": "哎咿多工作室"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "7ac99c40-0768-5b6b-a402-86a8517197f3",
+      "name": {
+        "lang": {
+          "zh": "哔哩哔哩电竞"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "eef5fb94-75dc-532d-82c8-8c6e78457ed9",
+      "name": {
+        "lang": {
+          "zh": "四季神社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "af9df8e4-86e7-5089-ab06-dc8a6e89146c",
+      "name": {
+        "lang": {
+          "zh": "四禧丸子"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "820597b7-9f1d-5ad4-83db-66aa8aef89f2",
+      "name": {
+        "lang": {
+          "zh": "夕映结社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "ccba2d70-dee5-5800-a307-b722ebdcdc4f",
+      "name": {
+        "lang": {
+          "zh": "夜空Project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "e0b42ce4-0090-560b-96a1-82d5bc8f7164",
+      "name": {
+        "lang": {
+          "zh": "妖灵project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "cee4f0c6-fb18-53a7-ac1c-7a79fce1a3cb",
+      "name": {
+        "lang": {
+          "zh": "妖精体系FairySystem"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "71567c9a-f24f-5829-877c-aad4d77ff08e",
+      "name": {
+        "lang": {
+          "zh": "山海社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a2dfbe6d-579b-50da-a404-9d80711403d7",
+      "name": {
+        "lang": {
+          "zh": "岄"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "61722433-dfba-5899-a5bb-fc9229f1f62f",
+      "name": {
+        "lang": {
+          "zh": "幻home"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "81fb6430-675c-5177-9443-8dedd2b96730",
+      "name": {
+        "lang": {
+          "zh": "忘崽牛奶"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "8dbd1e05-a7d6-5f57-82f8-92f788450b28",
+      "name": {
+        "lang": {
+          "zh": "悠梦する-女仆咖啡厅"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "78fb136a-a601-516b-af0c-2e01cbdbbe8f",
+      "name": {
+        "lang": {
+          "en": "StuMRare",
+          "zh": "撒币社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "b25b6594-eaa6-5b16-a112-c81a853f4815",
+      "name": {
+        "lang": {
+          "zh": "新科动漫"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "53ad5ef0-5125-56c0-99c1-8c4352b7afbe",
+      "name": {
+        "lang": {
+          "jp": "梦重力株式会社",
+          "zh": "无次元PROJECT"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "fb2c595a-af26-52f1-b433-bf339409d3d4",
+      "name": {
+        "lang": {
+          "zh": "无限殿_Infinite"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "68c5984b-6cab-56fa-b8d9-23f45378a877",
+      "name": {
+        "lang": {
+          "zh": "星名社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "6506d485-2cbc-552f-9337-6d4fc2d9b7fd",
+      "name": {
+        "lang": {
+          "jp": "星めぐり学園",
+          "zh": "星巡学园"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "ae491a1c-c400-5e88-9eb6-3622c698f8f1",
+      "name": {
+        "lang": {
+          "jp": "星研社プロジェクト",
+          "en": "Hoshisaguri Project",
+          "zh": "星研社project"
+        },
+        "default": "en"
+      }
+    },
+    {
+      "uuid": "464d8696-2f1b-55f2-8091-d4b53ae1df4c",
+      "name": {
+        "lang": {
+          "zh": "星野旅社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "7b8e376b-1043-5774-a985-5d57aafc4a16",
+      "name": {
+        "lang": {
+          "zh": "曦和project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a38c8dc9-5896-5684-b965-e39f9c7e03c7",
+      "name": {
+        "lang": {
+          "zh": "月光社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "63c9e72d-0157-5c80-9f27-0977653100be",
+      "name": {
+        "lang": {
+          "zh": "木南工坊"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "9548b50d-dbb9-5b8e-9a4f-a86239ac14ca",
+      "name": {
+        "lang": {
+          "zh": "极光社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "aebb8a27-96ad-575f-99f7-485fb958d709",
+      "name": {
+        "lang": {
+          "zh": "椛榊计划"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "eb71d898-f15e-591f-acf0-3d07fe77ccfa",
+      "name": {
+        "lang": {
+          "zh": "樱铃万事屋"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "08e83e80-ba92-538d-b63d-fe0592e8af6c",
+      "name": {
+        "lang": {
+          "zh": "浅海Project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "68aaeeda-ab34-5aef-b0fa-511f049ccdfb",
+      "name": {
+        "lang": {
+          "zh": "海洋公馆"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "811ad373-4359-562c-add8-3c2492dc209b",
+      "name": {
+        "lang": {
+          "zh": "狄灵计划 Project-D"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a466cec7-5670-59a2-8dd4-66d1a73ad32a",
+      "name": {
+        "lang": {
+          "en": "Maple Silhouette",
+          "zh": "玄月神"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a629223f-5cb6-50df-8d28-5400b4d1c497",
+      "name": {
+        "lang": {
+          "zh": "玹云社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "8b323527-39eb-519a-b7d5-f27a54ea118b",
+      "name": {
+        "lang": {
+          "zh": "白给社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "8e11a33b-c9e1-574f-8300-c8e5aa050010",
+      "name": {
+        "lang": {
+          "jp": "KAMITSUBAKI STUDIO",
+          "zh": "神椿工作室"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "9709a2c5-843f-5615-aa16-a2e1d3cca78f",
+      "name": {
+        "lang": {
+          "zh": "神乐组"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "4aec98b8-98ce-50a3-8eed-3a5367406293",
+      "name": {
+        "lang": {
+          "zh": "空想岛"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "da74be58-904f-586f-99f3-49f26c496892",
+      "name": {
+        "lang": {
+          "zh": "空白社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "e9b10a64-feda-55fe-85d3-a1c5cb48c67d",
+      "name": {
+        "lang": {
+          "zh": "童猫会"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "cb8f50eb-2127-5a65-acef-df8ebe3743a4",
+      "name": {
+        "lang": {
+          "zh": "纸片人计划"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "f233165c-3a1b-5398-8bee-28da338189fa",
+      "name": {
+        "lang": {
+          "zh": "结缘屋"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "e2d2dfda-6dcc-54b4-b213-2b7db8b04a93",
+      "name": {
+        "lang": {
+          "jp": "花寄女子寮",
+          "zh": "花寄女生宿舍"
+        },
+        "default": "jp"
+      }
+    },
+    {
+      "uuid": "9149cba3-59e7-5dfe-84a4-4a8d3280de91",
+      "name": {
+        "lang": {
+          "en": "VC社",
+          "zh": "英灵殿ValhallaClub"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "d5b4bb11-0b31-5e96-a0e5-5ca27dfebc98",
+      "name": {
+        "lang": {
+          "zh": "草莓王子"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "486c63ef-ef29-5ec5-8930-8ccd6dce837b",
+      "name": {
+        "lang": {
+          "zh": "营业十三部"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "668fb094-6abc-5d42-affd-411bde41cbdd",
+      "name": {
+        "lang": {
+          "zh": "薯条project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "d7af6703-ed00-53bf-aa46-0d5cf679925b",
+      "name": {
+        "lang": {
+          "zh": "虚研社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "e85f1e0a-82b5-532f-beac-5bff83b7b905",
+      "name": {
+        "lang": {
+          "zh": "蟠桃组"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "7ce978ae-b348-57cd-804f-4c5fae6852bd",
+      "name": {
+        "lang": {
+          "zh": "超V学园"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "cc64b75a-f000-5b4a-bef3-bc727dab00a2",
+      "name": {
+        "lang": {
+          "zh": "超次元学院"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "0720e97e-ca7a-55b7-9944-94d2e090dcd2",
+      "name": {
+        "lang": {
+          "zh": "超电VUP"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "779b8800-af13-58ba-a384-bebeed4428c6",
+      "name": {
+        "lang": {
+          "zh": "辉夙星人类文明博物馆"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "d6c029ef-8b44-5e59-9e0b-79d4c9884333",
+      "name": {
+        "lang": {
+          "zh": "远星社FarStar"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "47ca08ba-9ebb-5ac9-bae9-b0f3b802e97f",
+      "name": {
+        "lang": {
+          "zh": "量子少年Official"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "a5a6750b-a591-516f-a261-f1a77f46d4db",
+      "name": {
+        "lang": {
+          "en": "FlashRiceStudio",
+          "zh": "闪米社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "0c0c81b5-fc69-5ee9-a2cb-f77fb303b682",
+      "name": {
+        "lang": {
+          "en": "Rain-Forest-Club",
+          "zh": "雨林社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "231c831c-1e80-5a10-bb8c-b4fa15b861b7",
+      "name": {
+        "lang": {
+          "zh": "雪风军团"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "4808e2b0-1892-56db-91d3-872c490c0606",
+      "name": {
+        "lang": {
+          "en": "Fairy zero",
+          "zh": "零式妖精Project"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "003983a6-421a-5e75-93e1-841d5c8ee9f2",
+      "name": {
+        "lang": {
+          "zh": "電子妖精"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "66ab2857-8a5f-5768-a532-f9a05a6d7572",
+      "name": {
+        "lang": {
+          "zh": "风云社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "0a2ecd85-eecd-5968-9d03-77649d1844a8",
+      "name": {
+        "lang": {
+          "zh": "魂喵Official"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "d71b4174-d0c3-5d9d-ac1f-bef92136f290",
+      "name": {
+        "lang": {
+          "zh": "魑魅幻境社"
+        },
+        "default": "zh"
+      }
+    },
+    {
+      "uuid": "ac61354d-1b1c-5be1-80e1-b996ea336754",
+      "name": {
+        "lang": {
+          "zh": "鸽鹉live"
+        },
+        "default": "zh"
+      }
+    }
+  ]
+}
