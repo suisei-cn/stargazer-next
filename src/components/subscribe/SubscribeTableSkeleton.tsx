@@ -3,7 +3,7 @@ import { Box, Skeleton } from '@mantine/core'
 
 const SkeletonCell = defineVFC<{ grow: number }>(({ grow, className }) => (
   <Box
-    component="td"
+    component='td'
     sx={{
       flexGrow: grow,
       paddingLeft: '6px !important',
@@ -16,23 +16,21 @@ const SkeletonCell = defineVFC<{ grow: number }>(({ grow, className }) => (
 ))
 
 const SkeletonRow = defineVFC<{ key: number }>(({ key }) => (
-  <Box component="tr" key={key} sx={{ display: 'flex' }}>
+  <Box component='tr' key={key} sx={{ display: 'flex' }}>
     <SkeletonCell grow={1} />
     <SkeletonCell grow={4} />
     <SkeletonCell grow={13} />
   </Box>
 ))
 
-const SubscribeTableSkeleton = defineVFC(() => {
+const TableSkeleton = defineVFC(() => {
   return (
     <>
       {Array(10)
         .fill(null)
-        .map((_, key) => (
-          <SkeletonRow key={key} />
-        ))}
+        .map((_, key) => <SkeletonRow key={key} />)}
     </>
   )
 })
 
-export default SubscribeTableSkeleton
+export default TableSkeleton

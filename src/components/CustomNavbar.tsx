@@ -1,6 +1,6 @@
 import { defineVFC } from '@core/helper'
 import { useWindow } from '@core/utils'
-import { Navbar, useMantineTheme, NavbarProps, Transition } from '@mantine/core'
+import { Navbar, NavbarProps, Transition, useMantineTheme } from '@mantine/core'
 import { useMediaQuery } from '@mantine/hooks'
 import { Dispatch, SetStateAction } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -23,54 +23,54 @@ const CustomNavbar = defineVFC<
 
   return (
     <Transition
-      transition="slide-right"
+      transition='slide-right'
       duration={300}
-      timingFunction="ease"
+      timingFunction='ease'
       mounted={isLargeScreen || opened}
     >
       {style => (
         <Navbar
           {...prop}
-          hiddenBreakpoint="sm"
+          hiddenBreakpoint='sm'
           hidden={!opened}
           className={className}
-          height="calc(100vh - 70px)"
+          height='calc(100vh - 70px)'
           sx={{
             minHeight: 'calc(100vh - 70px)',
             padding: 12,
             ...style
           }}
         >
-          <MainLink icon="bx:home" href="/" onClick={closeNavBar}>
+          <MainLink icon='bx:home' href='/' onClick={closeNavBar}>
             {t('general.home')}
           </MainLink>
           <MainLink
-            icon="akar-icons:circle-check"
-            href="/subscription"
+            icon='akar-icons:circle-check'
+            href='/subscription'
             onClick={closeNavBar}
           >
             {t('general.subscription')}
           </MainLink>
           <MainLink
-            icon="ant-design:setting-outlined"
-            href="/settings"
+            icon='ant-design:setting-outlined'
+            href='/settings'
             onClick={closeNavBar}
           >
             {t('general.setting')}
           </MainLink>
-          <MainLink
+          {
+            /* <MainLink
             icon="ant-design:setting-outlined"
             href="/admin"
             onClick={closeNavBar}
           >
             {t('general.admin')}
-          </MainLink>
+          </MainLink> */
+          }
           <Navbar.Section
             mt={'auto'}
             sx={{
-              borderTop: `1px solid ${
-                isDark ? colors.dark[6] : colors.gray[3]
-              }`,
+              borderTop: `1px solid ${isDark ? colors.dark[6] : colors.gray[3]}`,
               padding: 4
             }}
           >

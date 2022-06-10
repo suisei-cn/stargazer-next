@@ -17,13 +17,9 @@ import {
   withVTB
 } from '@core/subscribe'
 
-import {
-  TableDataLoadFailureWarn,
-  TableSearchEmptyWarn,
-  TableVtbRows
-} from './SubscribeTableComponent'
-import SubscribeTableSkeleton from './SubscribeTableSkeleton'
 import { useTranslation } from 'react-i18next'
+import { TableDataLoadFailureWarn, TableSearchEmptyWarn, TableVtbRows } from './SubscribeTableComponent'
+import TableSkeleton from './SubscribeTableSkeleton'
 
 const SubscribeTable = defineVFC(
   () => {
@@ -59,31 +55,30 @@ const SubscribeTable = defineVFC(
     }
 
     const toggleSingle = (uuid: string) => {
-      setVtbs(vtbs =>
-        vtbs.map(vtb =>
-          vtb.uuid !== uuid ? vtb : { ...vtb, subscribed: !vtb.subscribed }
-        )
-      )
+      setVtbs(vtbs => vtbs.map(vtb => vtb.uuid !== uuid ? vtb : { ...vtb, subscribed: !vtb.subscribed }))
     }
 
     const highlight = searchQuery.split('')
 
-    const headCheckBox =
-      allToggledState === AllToggleState.All ? (
+    const headCheckBox = allToggledState === AllToggleState.All
+      ? (
         <Checkbox
           checked={true}
           onChange={() => {
             setAllToggled(AllToggleState.None)
           }}
         />
-      ) : allToggledState === AllToggleState.None ? (
+      )
+      : allToggledState === AllToggleState.None
+      ? (
         <Checkbox
           checked={false}
           onChange={() => {
             setAllToggled(AllToggleState.All)
           }}
         />
-      ) : (
+      )
+      : (
         <Checkbox
           checked={false}
           indeterminate
@@ -99,14 +94,14 @@ const SubscribeTable = defineVFC(
 
         return (
           <Button
-            variant="subtle"
-            size="xs"
+            variant='subtle'
+            size='xs'
             className={className}
             onClick={() => {
               updateSort(sortKey)
             }}
           >
-            <Text weight={isSortKey ? 700 : 400} size="sm">
+            <Text weight={isSortKey ? 700 : 400} size='sm'>
               {display}
               {isSortKey ? (sort.order === SortOrder.Asc ? ' ▲' : ' ▼') : ''}
             </Text>
@@ -160,40 +155,39 @@ const SubscribeTable = defineVFC(
             paddingRight: '0 !important',
             paddingLeft: '0 !important'
           }}
-        ></th>
+        >
+        </th>
       </tr>
     )
 
     return (
       <ScrollArea
-        type="scroll"
+        type='scroll'
         scrollHideDelay={200}
         offsetScrollbars
         scrollbarSize={2}
         mt={12}
       >
         <Table
-          horizontalSpacing="xs"
-          highlightOnHover={
-            loadState === DataLoadState.Loaded &&
-            sortedAndFilteredVtbs.length !== 0
-          }
+          horizontalSpacing='xs'
+          highlightOnHover={loadState === DataLoadState.Loaded
+            && sortedAndFilteredVtbs.length !== 0}
         >
           <thead>{head}</thead>
           <tbody>
-            {loadState === DataLoadState.Loading ? (
-              <SubscribeTableSkeleton />
-            ) : loadState === DataLoadState.Error ? (
-              <TableDataLoadFailureWarn />
-            ) : sortedAndFilteredVtbs.length === 0 ? (
-              <TableSearchEmptyWarn />
-            ) : (
-              <TableVtbRows
-                highlight={highlight}
-                toggleSingle={toggleSingle}
-                vtbs={sortedAndFilteredVtbs}
-              />
-            )}
+            {loadState === DataLoadState.Loading
+              ? <TableSkeleton />
+              : loadState === DataLoadState.Error
+              ? <TableDataLoadFailureWarn />
+              : sortedAndFilteredVtbs.length === 0
+              ? <TableSearchEmptyWarn />
+              : (
+                <TableVtbRows
+                  highlight={highlight}
+                  toggleSingle={toggleSingle}
+                  vtbs={sortedAndFilteredVtbs}
+                />
+              )}
           </tbody>
         </Table>
       </ScrollArea>

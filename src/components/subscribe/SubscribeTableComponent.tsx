@@ -1,15 +1,7 @@
 import React from 'react'
 
 import { Icon } from '@iconify/react'
-import {
-  Box,
-  Button,
-  Center,
-  Checkbox,
-  Container,
-  Highlight,
-  Text
-} from '@mantine/core'
+import { Box, Button, Center, Checkbox, Container, Highlight, Text } from '@mantine/core'
 
 import { defineVFC } from '@core/helper'
 import { VTB } from '@core/subscribe'
@@ -20,17 +12,17 @@ export const TableSearchEmptyWarn = defineVFC(
   () => {
     const { t } = useTranslation()
     return (
-      <Box component="tr">
+      <Box component='tr'>
         <td>
           <Container sx={theme => ({ color: theme.colors.dark[3] })}>
             <Center mt={60} mb={40}>
-              <Icon icon="ic:outline-sms-failed" width={60} />
+              <Icon icon='ic:outline-sms-failed' width={60} />
             </Center>
             <Center mb={20}>
               <Text>{t('subscription.table.warn.unable_to_find.text')}</Text>
             </Center>
             <Center>
-              <Button component="a" href="https://github.com/" variant="light">
+              <Button component='a' href='https://github.com/' variant='light'>
                 {t('subscription.table.warn.unable_to_find.button')}
               </Button>
             </Center>
@@ -46,11 +38,11 @@ export const TableDataLoadFailureWarn = defineVFC(
   () => {
     const { t } = useTranslation()
     return (
-      <Box component="tr">
+      <Box component='tr'>
         <td>
           <Container sx={theme => ({ color: theme.colors.dark[3] })}>
             <Center mt={60} mb={40}>
-              <Icon icon="carbon:data-error" width={60} />
+              <Icon icon='carbon:data-error' width={60} />
             </Center>
             <Center mb={20}>
               <Text>
@@ -59,9 +51,9 @@ export const TableDataLoadFailureWarn = defineVFC(
             </Center>
             <Center>
               <Button
-                component="a"
-                href="https://github.com/suisei-cn/stargazer-next/issues/new"
-                variant="light"
+                component='a'
+                href='https://github.com/suisei-cn/stargazer-next/issues/new'
+                variant='light'
               >
                 {t('general.report_issue')}
               </Button>
@@ -89,8 +81,8 @@ export const TableVtbRows = defineVFC<{
             style={{ display: 'flex', cursor: 'pointer' }}
             onClick={() => toggleSingle(uuid)}
           >
-            <td style={{ flexGrow: 1, paddingTop: '0.6rem!important' }}>
-              <Checkbox checked={subscribed} onChange={() => {}} size="sm" />
+            <td style={{ paddingTop: '0.6rem!important' }}>
+              <Checkbox checked={subscribed} onChange={() => {}} size='sm' />
             </td>
             <td
               style={{
@@ -100,7 +92,7 @@ export const TableVtbRows = defineVFC<{
                 textOverflow: 'ellipsis'
               }}
             >
-              <Highlight highlight={highlight} size="sm">
+              <Highlight highlight={highlight} size='sm'>
                 {getName(name)}
               </Highlight>
             </td>
@@ -111,7 +103,7 @@ export const TableVtbRows = defineVFC<{
                 textOverflow: 'ellipsis'
               }}
             >
-              <Highlight highlight={highlight} size="sm" color={'gray'}>
+              <Highlight highlight={highlight} size='sm' color={'gray'}>
                 {group ?? ''}
               </Highlight>
             </td>
@@ -119,7 +111,8 @@ export const TableVtbRows = defineVFC<{
               style={{
                 flexGrow: 114514
               }}
-            ></td>
+            >
+            </td>
           </tr>
         )
       })}
