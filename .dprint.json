@@ -1,0 +1,31 @@
+{
+  "typescript": {
+    "quoteStyle": "alwaysSingle",
+    "semiColons": "asi",
+    "trailingCommas": "never",
+    "useBraces": "preferNone",
+    "arrowFunction.useParentheses": "preferNone",
+    "arrowFunction.bracePosition": "sameLineUnlessHanging"
+  },
+  "json": {},
+  "markdown": {
+    "textWrap": "never",
+    "lineWidth": 120
+  },
+  "toml": {},
+  "includes": [
+    "**/*.{ts,tsx,js,jsx,cjs,mjs,json,md,toml,html}"
+  ],
+  "excludes": [
+    "**/node_modules",
+    "**/*-lock.json",
+    "**/.next",
+    "**/.target"
+  ],
+  "plugins": [
+    "https://plugins.dprint.dev/typescript-0.68.3.wasm",
+    "https://plugins.dprint.dev/json-0.15.2.wasm",
+    "https://plugins.dprint.dev/markdown-0.13.2.wasm",
+    "https://plugins.dprint.dev/toml-0.5.4.wasm"
+  ]
+}
